@@ -29,6 +29,7 @@
 | --- | --- | --- |
 | 隐盾智能脱敏 | [yindun.fagougou.com](https://yindun.fagougou.com/) | 独立负责的文档脱敏系统，OCR / NER / REST / MCP，已部署公网 |
 | 跨界纪元 | [在线试玩](https://xiaodernan.github.io/crossrealm-chronicles/) | Three.js 第三人称开放世界动作 RPG 原型 |
+| CAESURA《止音纪元》 | [进入止音纪元](https://xiaodernan.github.io/caesura/) | 原创第三人称动作 RPG 垂直切片，已部署 GitHub Pages |
 | Football OS Web | [在线体验](https://xiaodernan.github.io/football-os-web/) | 足球成长、分析、训练与模拟的浏览器端体验 |
 | 个人作品集 | [xiaodernan.github.io](https://xiaodernan.github.io/) | 全部作品、经历、能力和运行状态总览 |
 
