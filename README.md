@@ -87,9 +87,6 @@
 
 - [ted](https://github.com/xiaodernan/ted) · 2025-05 个人习作仓库（无描述）
 - [teedyyyy](https://github.com/xiaodernan/teedyyyy) · 2025-04 个人习作仓库（无描述）
-- [teedyas](https://github.com/xiaodernan/teedyas) · 2025-05 个人习作仓库（无描述）
-- [teedyassi](https://github.com/xiaodernan/teedyassi) · 2025-05 个人习作仓库（无描述）
-- [teedy-assign](https://github.com/xiaodernan/teedy-assign) · 2025-05 个人习作仓库（JavaScript，无描述）
 - [main](https://github.com/xiaodernan/main) · 2024-09 早期空仓库
 
 **Fork 实验（2）**
