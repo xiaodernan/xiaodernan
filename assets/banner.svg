@@ -1,65 +1,77 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 420" role="img" aria-labelledby="t d">
   <title id="t">赵欣曈 · Zhao Xintong</title>
-  <desc id="d">AI 应用工程师 — Agent Runtime · 文档智能 · 可验证交付 · AI Application Engineer</desc>
+  <desc id="d">AI 应用工程师 · Agent Runtime · 文档智能 · 可验证交付 — AI Application Engineer · Agent Runtime · Document Intelligence · Verifiable Delivery</desc>
 
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0b1016"/>
-      <stop offset="0.55" stop-color="#111a22"/>
-      <stop offset="1" stop-color="#0b1016"/>
+      <stop offset="0" stop-color="#0e141b"/>
+      <stop offset="0.52" stop-color="#131c26"/>
+      <stop offset="1" stop-color="#0e141b"/>
     </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#ee8052"/>
-      <stop offset="0.45" stop-color="#d9a05a"/>
-      <stop offset="1" stop-color="#5476c7"/>
+    <radialGradient id="goldGlow" cx="74%" cy="42%" r="52%">
+      <stop offset="0" stop-color="#b88632" stop-opacity="0.20"/>
+      <stop offset="1" stop-color="#b88632" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="goldGlow2" cx="18%" cy="90%" r="46%">
+      <stop offset="0" stop-color="#c9a258" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#c9a258" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="goldRule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#c9a258"/>
+      <stop offset="0.55" stop-color="#b88632"/>
+      <stop offset="1" stop-color="#b88632" stop-opacity="0"/>
     </linearGradient>
     <linearGradient id="wave" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#ffb286" stop-opacity="0.95"/>
-      <stop offset="0.55" stop-color="#ee8052"/>
-      <stop offset="1" stop-color="#ee8052" stop-opacity="0.15"/>
+      <stop offset="0" stop-color="#e8c87a" stop-opacity="0.98"/>
+      <stop offset="0.6" stop-color="#c9a258"/>
+      <stop offset="1" stop-color="#c9a258" stop-opacity="0"/>
     </linearGradient>
-    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
-      <path d="M 42 0 L 0 0 0 42" fill="none" stroke="#1b2530" stroke-width="1"/>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M 44 0 L 0 0 0 44" fill="none" stroke="#1a2430" stroke-width="1"/>
     </pattern>
-    <radialGradient id="glow" cx="72%" cy="48%" r="46%">
-      <stop offset="0" stop-color="#ee8052" stop-opacity="0.20"/>
-      <stop offset="1" stop-color="#ee8052" stop-opacity="0"/>
-    </radialGradient>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="1.4" cy="1.4" r="1.4" fill="#22303c"/>
+    </pattern>
   </defs>
 
-  <rect width="1200" height="630" fill="url(#bg)"/>
-  <rect width="1200" height="630" fill="url(#grid)" opacity="0.55"/>
-  <rect width="1200" height="630" fill="url(#glow)"/>
+  <rect width="1280" height="420" fill="url(#bg)"/>
+  <rect width="1280" height="420" fill="url(#grid)" opacity="0.6"/>
+  <rect width="1280" height="420" fill="url(#dots)" opacity="0.35"/>
+  <rect width="1280" height="420" fill="url(#goldGlow)"/>
+  <rect width="1280" height="420" fill="url(#goldGlow2)"/>
+  <rect x="0" y="0" width="8" height="420" fill="url(#goldRule)"/>
 
-  <!-- left rail accent -->
-  <rect x="0" y="0" width="10" height="630" fill="url(#accent)" opacity="0.9"/>
+  <!-- ZX monogram -->
+  <rect x="72" y="82" width="92" height="92" fill="#c9a258"/>
+  <rect x="79" y="89" width="92" height="92" fill="none" stroke="#0e141b" stroke-width="2" stroke-opacity="0.35"/>
+  <text x="118" y="141" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-weight="700" font-size="38" fill="#0e141b" letter-spacing="2">ZX</text>
 
-  <!-- ZX mark -->
-  <rect x="96" y="120" width="86" height="86" fill="#ee8052"/>
-  <text x="139" y="176" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-weight="700" font-size="34" fill="#0b1016" letter-spacing="2">ZX</text>
+  <!-- project strip, top-right -->
+  <text x="1208" y="46" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12.5" fill="#5f6f7c" letter-spacing="2.4">CÆSURA · NEXUS · MINICC · CROSSREALM</text>
 
-  <!-- name lockup -->
-  <text x="96" y="300" font-family="system-ui, -apple-system, 'PingFang SC', 'Microsoft YaHei', 'Noto Sans SC', sans-serif" font-weight="800" font-size="96" fill="#f8f7f2" letter-spacing="6">赵欣曈</text>
-  <text x="100" y="352" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="22" fill="#8f9aa6" letter-spacing="6.5">ZHAO XINTONG</text>
-  <text x="100" y="404" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="19" fill="#ee8052" letter-spacing="2.5">AI 应用工程师 · AI APPLICATION ENGINEER</text>
+  <!-- name -->
+  <text x="72" y="252" font-family="'Noto Serif SC','Noto Serif CJK SC',Georgia,serif" font-weight="900" font-size="86" fill="#f7f5ee" letter-spacing="5">赵欣曈</text>
+  <text x="76" y="292" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="17" fill="#8f9aa6" letter-spacing="8.2">ZHAO XINTONG</text>
 
-  <!-- divider -->
-  <rect x="100" y="436" width="360" height="4" fill="url(#accent)"/>
+  <!-- divider rule -->
+  <rect x="76" y="306" width="252" height="3" fill="url(#goldRule)"/>
 
-  <!-- supporting line -->
-  <text x="100" y="512" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16" fill="#c3cdd4" letter-spacing="1.2">Agent Runtime · 文档智能 · 可验证交付</text>
-  <text x="100" y="544" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" fill="#6e7a85" letter-spacing="1.2">AGENT RUNTIME · DOCUMENT INTELLIGENCE · VERIFIABLE DELIVERY</text>
+  <!-- tagline -->
+  <text x="76" y="336" font-family="'Noto Serif SC','Noto Serif CJK SC',Georgia,serif" font-size="17.5" fill="#c9a258" letter-spacing="1.6">AI 应用工程师 · Agent Runtime · 文档智能 · 可验证交付</text>
+  <text x="76" y="360" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12.5" fill="#6e7a85" letter-spacing="1.5">AI APPLICATION ENGINEER · VERIFIABLE DELIVERY, NO THEATRE</text>
 
-  <!-- right-side signal: slow pulse -->
-  <g stroke="none" fill="none">
-    <circle cx="932" cy="300" r="148" stroke="#22303c" stroke-width="1.4"/>
-    <circle cx="932" cy="300" r="108" stroke="#2b3a48" stroke-width="1.2" stroke-dasharray="4 6"/>
-    <circle cx="932" cy="300" r="68" stroke="#33241d" stroke-width="1.2"/>
+  <!-- orbit / waveform, right side -->
+  <g fill="none">
+    <circle cx="1024" cy="196" r="122" stroke="#22303c" stroke-width="1.3"/>
+    <circle cx="1024" cy="196" r="88" stroke="#2b3a48" stroke-width="1.1" stroke-dasharray="3 7"/>
+    <circle cx="1024" cy="196" r="52" stroke="#33291f" stroke-width="1.1"/>
   </g>
-  <path d="M 770 300 L 815 300 L 832 224 L 858 376 L 884 236 L 912 350 L 932 300 L 950 300 L 985 300 L 1000 268 L 1016 330 L 1028 292 L 1042 308 L 1096 308"
-        fill="none" stroke="#1a2a36" stroke-width="7" stroke-linejoin="round" stroke-linecap="round" opacity="0.9"/>
-  <path d="M 770 300 L 815 300 L 832 224 L 858 376 L 884 236 L 912 350 L 932 300 L 950 300 L 985 300 L 1000 268 L 1016 330 L 1028 292 L 1042 308 L 1096 308"
-        fill="none" stroke="url(#wave)" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M 858 208 L 916 208 L 934 128 L 962 284 L 988 148 L 1012 258 L 1030 208 L 1054 208 L 1084 208 L 1100 172 L 1120 244 L 1134 190 L 1150 216 L 1208 216"
+        fill="none" stroke="#1a2a36" stroke-width="7" stroke-linejoin="round" stroke-linecap="round" opacity="0.85"/>
+  <path d="M 858 208 L 916 208 L 934 128 L 962 284 L 988 148 L 1012 258 L 1030 208 L 1054 208 L 1084 208 L 1100 172 L 1120 244 L 1134 190 L 1150 216 L 1208 216"
+        fill="none" stroke="url(#wave)" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
 
-  <text x="932" y="520" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15" fill="#7f8b96" letter-spacing="2">Xiaodernan.github.io</text>
+  <!-- footer strip -->
+  <text x="76" y="402" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#5f6f7c" letter-spacing="1.8">SUSTech 本科 · CUHK 硕士 · 计算机科学与技术</text>
+  <text x="1208" y="402" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#c9a258" letter-spacing="1.8">XIAODERNAN.GITHUB.IO</text>
 </svg>
