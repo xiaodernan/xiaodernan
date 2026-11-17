@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="t d">
+  <title id="t">赵欣曈 · Zhao Xintong</title>
+  <desc id="d">AI 应用工程师 — Agent Runtime · 文档智能 · 可验证交付 · AI Application Engineer</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1016"/>
+      <stop offset="0.55" stop-color="#111a22"/>
+      <stop offset="1" stop-color="#0b1016"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ee8052"/>
+      <stop offset="0.45" stop-color="#d9a05a"/>
+      <stop offset="1" stop-color="#5476c7"/>
+    </linearGradient>
+    <linearGradient id="wave" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffb286" stop-opacity="0.95"/>
+      <stop offset="0.55" stop-color="#ee8052"/>
+      <stop offset="1" stop-color="#ee8052" stop-opacity="0.15"/>
+    </linearGradient>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M 42 0 L 0 0 0 42" fill="none" stroke="#1b2530" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="glow" cx="72%" cy="48%" r="46%">
+      <stop offset="0" stop-color="#ee8052" stop-opacity="0.20"/>
+      <stop offset="1" stop-color="#ee8052" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#grid)" opacity="0.55"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+
+  <!-- left rail accent -->
+  <rect x="0" y="0" width="10" height="630" fill="url(#accent)" opacity="0.9"/>
+
+  <!-- ZX mark -->
+  <rect x="96" y="120" width="86" height="86" fill="#ee8052"/>
+  <text x="139" y="176" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-weight="700" font-size="34" fill="#0b1016" letter-spacing="2">ZX</text>
+
+  <!-- name lockup -->
+  <text x="96" y="300" font-family="system-ui, -apple-system, 'PingFang SC', 'Microsoft YaHei', 'Noto Sans SC', sans-serif" font-weight="800" font-size="96" fill="#f8f7f2" letter-spacing="6">赵欣曈</text>
+  <text x="100" y="352" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="22" fill="#8f9aa6" letter-spacing="6.5">ZHAO XINTONG</text>
+  <text x="100" y="404" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="19" fill="#ee8052" letter-spacing="2.5">AI 应用工程师 · AI APPLICATION ENGINEER</text>
+
+  <!-- divider -->
+  <rect x="100" y="436" width="360" height="4" fill="url(#accent)"/>
+
+  <!-- supporting line -->
+  <text x="100" y="512" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16" fill="#c3cdd4" letter-spacing="1.2">Agent Runtime · 文档智能 · 可验证交付</text>
+  <text x="100" y="544" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" fill="#6e7a85" letter-spacing="1.2">AGENT RUNTIME · DOCUMENT INTELLIGENCE · VERIFIABLE DELIVERY</text>
+
+  <!-- right-side signal: slow pulse -->
+  <g stroke="none" fill="none">
+    <circle cx="932" cy="300" r="148" stroke="#22303c" stroke-width="1.4"/>
+    <circle cx="932" cy="300" r="108" stroke="#2b3a48" stroke-width="1.2" stroke-dasharray="4 6"/>
+    <circle cx="932" cy="300" r="68" stroke="#33241d" stroke-width="1.2"/>
+  </g>
+  <path d="M 770 300 L 815 300 L 832 224 L 858 376 L 884 236 L 912 350 L 932 300 L 950 300 L 985 300 L 1000 268 L 1016 330 L 1028 292 L 1042 308 L 1096 308"
+        fill="none" stroke="#1a2a36" stroke-width="7" stroke-linejoin="round" stroke-linecap="round" opacity="0.9"/>
+  <path d="M 770 300 L 815 300 L 832 224 L 858 376 L 884 236 L 912 350 L 932 300 L 950 300 L 985 300 L 1000 268 L 1016 330 L 1028 292 L 1042 308 L 1096 308"
+        fill="none" stroke="url(#wave)" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <text x="932" y="520" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15" fill="#7f8b96" letter-spacing="2">Xiaodernan.github.io</text>
+</svg>
