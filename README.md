@@ -16,7 +16,6 @@
   <img src="https://img.shields.io/badge/SUSTech-南方科技大学本科%20·%20计算机科学与技术-b88632?style=for-the-badge&logo=school&logoColor=0e141b" alt="南方科技大学 · 本科 · 计算机科学与技术">
   <img src="https://img.shields.io/badge/CUHK-香港中文大学硕士%20·%20计算机科学与技术-c9a258?style=for-the-badge&logo=school&logoColor=0e141b" alt="香港中文大学 · 硕士 · 计算机科学与技术">
   <img src="https://img.shields.io/badge/物理竞赛-全国铜牌%20·%20江西省一等奖%20·%20江西省二等奖-1e9d96?style=for-the-badge&logo=medal&logoColor=0e141b" alt="全国中学生物理竞赛 · 铜牌 · 江西省一等奖 · 江西省二等奖">
-  <img src="https://img.shields.io/badge/IELTS-雅思%206.5%20·%20CET6%20546-3c8bbd?style=for-the-badge&logo=book-open&logoColor=0e141b" alt="雅思 6.5 · CET6 546">
 </p>
 
 <p>
@@ -39,7 +38,6 @@
 > 南方科技大学本科（计算机科学与技术）→ 香港中文大学硕士（计算机科学与技术）。
 > 全国中学生物理竞赛铜牌 · 江西省一等奖 · 江西省二等奖。
 > 法狗狗公司实习 —— 法律文书智能脱敏系统（OCR / NER 规则融合 + 人工复核 + 原格式导出），已部署公网。
-> 雅思 6.5 · CET6 546。
 
 ## 🧭 现在在这里
 
@@ -87,6 +85,9 @@
 
 - [ted](https://github.com/xiaodernan/ted) · 2025-05 个人习作仓库（无描述）
 - [teedyyyy](https://github.com/xiaodernan/teedyyyy) · 2025-04 个人习作仓库（无描述）
+- [teedyas](https://github.com/xiaodernan/teedyas) · 2025-05 个人习作仓库（无描述）
+- [teedyassi](https://github.com/xiaodernan/teedyassi) · 2025-05 个人习作仓库（无描述）
+- [teedy-assign](https://github.com/xiaodernan/teedy-assign) · 2025-05 个人习作仓库（JavaScript，无描述）
 - [main](https://github.com/xiaodernan/main) · 2024-09 早期空仓库
 
 **Fork 实验（2）**
@@ -109,7 +110,6 @@
 - **香港中文大学** · 硕士 · 计算机科学与技术
 - **南方科技大学** · 本科 · 计算机科学与技术
 - **全国中学生物理竞赛 · 铜牌** · 江西省一等奖 · 江西省二等奖
-- **雅思 6.5** · **CET6 546**
 
 ## 💼 经历
 
