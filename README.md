@@ -63,7 +63,7 @@
 | **Football OS** / **Web** | 足球分析与确定性模拟平台 + Pages 前端展示 | [在线体验](https://xiaodernan.github.io/football-os-web/) |
 | **AI Career OS** | 求职力诊断 · JD 匹配 · STAR 故事库 · 投递管理 · 复盘闭环 | [源码](https://github.com/xiaodernan/ai-career-os) |
 | **NEXUS Platform** | AI 原生电商与本地发现平台（Next.js + Spring Cloud + RAG） | [源码](https://github.com/xiaodernan/nexus-platform) |
-| **SpecProof** | 面向代码变更验收的证据工作台：范围 · 验证 · 可追溯 | [源码](https://github.com/xiaodernan/specproof) |
+| **SpecProof** | AI 代码变更验收防火墙：模型判决不能改，验收只能由 Base/Head 差分 + 证据链裁决 · 世界书 177 卷 · 展馆 18 件 exhibit · Court 4117d2b0 LOCKED · UI 590/590 | [源码](https://github.com/xiaodernan/specproof) · [正史](https://github.com/xiaodernan/specproof/tree/master/docs/world) |
 
 ## 🌐 全部公开项目
 
