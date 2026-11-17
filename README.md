@@ -16,6 +16,7 @@
   <img src="https://img.shields.io/badge/SUSTech-南方科技大学本科%20·%20计算机科学与技术-b88632?style=for-the-badge&logo=school&logoColor=0e141b" alt="南方科技大学 · 本科 · 计算机科学与技术">
   <img src="https://img.shields.io/badge/CUHK-香港中文大学硕士%20·%20计算机科学与技术-c9a258?style=for-the-badge&logo=school&logoColor=0e141b" alt="香港中文大学 · 硕士 · 计算机科学与技术">
   <img src="https://img.shields.io/badge/物理竞赛-全国铜牌%20·%20江西省一等奖%20·%20江西省二等奖-1e9d96?style=for-the-badge&logo=medal&logoColor=0e141b" alt="全国中学生物理竞赛 · 铜牌 · 江西省一等奖 · 江西省二等奖">
+  <img src="https://img.shields.io/badge/IELTS-雅思%206.5%20·%20CET6%20546-3c8bbd?style=for-the-badge&logo=book-open&logoColor=0e141b" alt="雅思 6.5 · CET6 546">
 </p>
 
 <p>
@@ -36,7 +37,7 @@
 写代码只是起点，**让每一步都留下证据、能被复验**才是交付的底线。
 
 > 南方科技大学本科（计算机科学与技术）→ 香港中文大学硕士（计算机科学与技术）。
-> 全国中学生物理竞赛铜牌 · 江西省一等奖 · 江西省二等奖。
+> 全国中学生物理竞赛铜牌 · 江西省一等奖 · 江西省二等奖 · 雅思 6.5 · CET6 546。
 > 法狗狗公司实习 —— 法律文书智能脱敏系统（OCR / NER 规则融合 + 人工复核 + 原格式导出），已部署公网。
 
 ## 🧭 现在在这里
@@ -47,6 +48,7 @@
 | 🎓 **香港中文大学** | 硕士 · 计算机科学与技术 —— AI 系统落地、文档智能、Agent 工程 |
 | 🌱 **公开项目** | 持续更新：NEXUS AI 原生平台、CÆSURA 开放世界、CrossRealm Chronicles、minicc-codex…… |
 | 🔭 **关注方向** | LangGraph 状态流转 · RAG · 评估与证据链 · 高并发与容灾 · 长上下文缓存 |
+| 🗣️ **外语能力** | 雅思 6.5 · CET6 546 |
 
 ## 🚀 原创旗舰
 
@@ -107,6 +109,7 @@
 - **香港中文大学** · 硕士 · 计算机科学与技术
 - **南方科技大学** · 本科 · 计算机科学与技术
 - **全国中学生物理竞赛 · 铜牌** · 江西省一等奖 · 江西省二等奖
+- **雅思 6.5** · **CET6 546**
 
 ## 💼 经历
 
