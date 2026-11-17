@@ -4,7 +4,7 @@
 
 ### AI 应用工程师 · Agent Runtime · 文档智能 · 可验证交付
 
-从模型协议、工具调用和权限边界，到前端体验、审计证据和公网交付，我习惯把一个系统做成真正可以使用、验证和维护的产品。
+从模型协议、工具调用和权限边界，到前端体验、审计证据和公网交付，我把一个系统做成真正可以使用、验证和维护的产品。
 
 <p>
   <a href="https://xiaodernan.github.io/"><strong>打开我的个人作品集 →</strong></a>
@@ -14,6 +14,12 @@
   <a href="mailto:1841422153@qq.com">联系我</a>
 </p>
 
+<p>
+  <img src="https://img.shields.io/badge/SUSTech-南方科技大学本科%20·%20计科-5476c7?style=flat-square" alt="南方科技大学 本科">
+  <img src="https://img.shields.io/badge/CUHK-香港中文大学硕士%20·%20计科-ee8052?style=flat-square" alt="香港中文大学 硕士">
+  <img src="https://img.shields.io/badge/Physics%20Olympiad-铜牌%20·%20江西省一等奖%20·%20江西省二等奖-1e9d96?style=flat-square" alt="全国中学生物理竞赛铜牌">
+</p>
+
 </div>
 
 ## 现在正在做什么
@@ -21,7 +27,7 @@
 - 研究 AI 应用工程、LLM 应用和 Agent Runtime，关注任务状态、工具权限、恢复机制与证据链。
 - 把文档智能能力落到真实交付：OCR、NER、规则融合、人工复核、PDF / Word 原格式导出和失败可恢复任务。
 - 用 Python、TypeScript、Java、FastAPI、Spring Boot、React、Next.js、Three.js 和 MCP 构建可运行的产品原型。
-- 在香港中文大学攻读计算机科学与技术硕士（2026.09—2027.06）。此前就读于南方科技大学计算机科学与技术专业。
+- 在香港中文大学攻读计算机科学与技术硕士——此前就读于南方科技大学计算机科学与技术专业。
 
 ## 公网可打开的作品
 
@@ -29,7 +35,7 @@
 | --- | --- | --- |
 | 隐盾智能脱敏 | [yindun.fagougou.com](https://yindun.fagougou.com/) | 独立负责的文档脱敏系统，OCR / NER / REST / MCP，已部署公网 |
 | 跨界纪元 | [在线试玩](https://xiaodernan.github.io/crossrealm-chronicles/) | Three.js 第三人称开放世界动作 RPG 原型 |
-| CAESURA《止音纪元》 | [进入止音纪元](https://xiaodernan.github.io/caesura/) | 原创第三人称动作 RPG 垂直切片，已部署 GitHub Pages |
+| CAESURA《止音纪元》 | [进入止音纪元](https://xiaodernan.github.io/caesura/) | 原创第三人称动作 RPG，已部署 GitHub Pages |
 | Football OS Web | [在线体验](https://xiaodernan.github.io/football-os-web/) | 足球成长、分析、训练与模拟的浏览器端体验 |
 | 个人作品集 | [xiaodernan.github.io](https://xiaodernan.github.io/) | 全部作品、经历、能力和运行状态总览 |
 
@@ -55,7 +61,7 @@
 - [nexus-content-platform](https://github.com/xiaodernan/nexus-content-platform) · NEXUS 内容创作平台
 - [crossrealm-chronicles](https://github.com/xiaodernan/crossrealm-chronicles) · Three.js 可玩世界
 - [ai-career-os](https://github.com/xiaodernan/ai-career-os) · 面向求职的 AI 工作操作系统
-- [caesura](https://github.com/xiaodernan/caesura) · Three.js 第三人称动作 RPG 垂直切片
+- [caesura](https://github.com/xiaodernan/caesura) · Three.js 第三人称动作 RPG
 - [minicc-codex](https://github.com/xiaodernan/minicc-codex) · 工作区受限 Coding Agent
 - [specproof](https://github.com/xiaodernan/specproof) · 代码变更验收与证据工作台
 - [football-os-web](https://github.com/xiaodernan/football-os-web) · 足球成长与分析 Web 体验
@@ -68,8 +74,9 @@
 ## 经历与联系
 
 - 法狗狗（深圳）科技有限公司：敏感信息检测与脱敏系统全栈开发实习生，负责 REST / OpenAPI、MCP、OCR、NER、原格式导出、私有部署与公网服务。
-- 南方科技大学：计算机科学与技术本科；毕业论文方向为视觉-语言-行动模型的轻量化研究。
-- 全国中学生奥林匹克物理竞赛银牌（2021）；CET-6 546；IELTS 6.5。
+- 南方科技大学：计算机科学与技术本科。
+- 香港中文大学：计算机科学与技术硕士。方向：AI 系统落地、文档智能、Agent 工程。
+- 全国中学生物理竞赛 · 铜牌；江西省一等奖；江西省二等奖。
 
 欢迎从一个真实问题开始交流：一个 Agent 的可靠性、一条文档处理链路，或一款还没有被做出来的产品。
 
