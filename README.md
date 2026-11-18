@@ -10,13 +10,13 @@
   <a href="mailto:1841422153@qq.com">1841422153@qq.com</a>
 </p>
 
-<img alt="赵欣曈的方向" src="https://readme-typing-svg.demolab.com?font=DM+Mono&size=19&duration=3400&pause=1100&color=C9A258&background=0E141B&center=true&vCenter=true&width=880&lines=Agent%20Runtime%20%C2%B7%20%E6%96%87%E6%A1%A3%E6%99%BA%E8%83%BD%20%C2%B7%20%E5%8F%AF%E9%AA%8C%E8%AF%81%E4%BA%A4%E4%BB%98%3B%E5%8D%97%E6%96%B9%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%A6%20%E2%86%92%20%E9%A6%99%E6%B8%AF%E4%B8%AD%E6%96%87%E5%A4%A7%E5%AD%A6%20%C2%B7%20%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E4%B8%8E%E6%8A%80%E6%9C%AF%3B%E6%B3%95%E7%8B%97%E7%8B%97%E5%85%AC%E5%8F%B8%20%C2%B7%20%E6%B3%95%E5%BE%8B%E6%96%87%E4%B9%A6%E6%99%BA%E8%83%BD%E8%84%B1%E6%95%8F%3B%E9%9A%90%E7%9B%BE%20%C2%B7%20C%C3%86SURA%20%C2%B7%20Minicc%20Codex%3B%E9%9B%85%E6%80%9D%206.5%20%C2%B7%20IELTS%206.5%20%C2%B7%20CET6%20546" />
+<img alt="赵欣曈的方向" src="https://readme-typing-svg.demolab.com?font=DM+Mono&size=19&duration=3400&pause=1100&color=C9A258&background=0E141B&center=true&vCenter=true&width=880&lines=Agent%20Runtime%20%C2%B7%20%E6%96%87%E6%A1%A3%E6%99%BA%E8%83%BD%20%C2%B7%20%E5%8F%AF%E9%AA%8C%E8%AF%81%E4%BA%A4%E4%BB%98%3B%E5%8D%97%E6%96%B9%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%A6%20%E2%86%92%20%E9%A6%99%E6%B8%AF%E4%B8%AD%E6%96%87%E5%A4%A7%E5%AD%A6%20%C2%B7%20%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E4%B8%8E%E6%8A%80%E6%9C%AF%3B%E6%B3%95%E7%8B%97%E7%8B%97%E5%85%AC%E5%8F%B8%20%C2%B7%20%E6%B3%95%E5%BE%8B%E6%96%87%E4%B9%A6%E6%99%BA%E8%83%BD%E8%84%B1%E6%95%8F%3B%E9%9A%90%E7%9B%BE%20%C2%B7%20C%C3%86SURA%20%C2%B7%20Minicc%20Codex%3B%E9%9B%85%E6%80%9D%206.5%20%C2%B7%20IELTS%206.5%20%C2%B7%20%E5%85%AD%E7%BA%A7%20546%20%C2%B7%20CET6%20546" />
 
 <p>
   <img src="https://img.shields.io/badge/SUSTech-南方科技大学本科%20·%20计算机科学与技术-b88632?style=for-the-badge&logo=school&logoColor=0e141b" alt="南方科技大学 · 本科 · 计算机科学与技术">
   <img src="https://img.shields.io/badge/CUHK-香港中文大学硕士%20·%20计算机科学与技术-c9a258?style=for-the-badge&logo=school&logoColor=0e141b" alt="香港中文大学 · 硕士 · 计算机科学与技术">
   <img src="https://img.shields.io/badge/物理竞赛-全国铜牌%20·%20江西省一等奖%20·%20江西省二等奖-1e9d96?style=for-the-badge&logo=medal&logoColor=0e141b" alt="全国中学生物理竞赛 · 铜牌 · 江西省一等奖 · 江西省二等奖">
-  <img src="https://img.shields.io/badge/IELTS-雅思%206.5%20·%20CET6%20546-3c8bbd?style=for-the-badge&logo=book-open&logoColor=0e141b" alt="雅思 6.5 · CET6 546">
+  <img src="https://img.shields.io/badge/IELTS-雅思%206.5%20·%20六级%20546%20·%20CET6%20546-3c8bbd?style=for-the-badge&logo=book-open&logoColor=0e141b" alt="雅思 6.5 · 六级 546 · CET6 546">
 </p>
 
 <p>
@@ -47,7 +47,7 @@
 写代码只是起点，**让每一步都留下证据、能被复验**才是交付的底线。
 
 > 南方科技大学本科（计算机科学与技术）→ 香港中文大学硕士（计算机科学与技术）。
-> 全国中学生物理竞赛铜牌 · 江西省一等奖 · 江西省二等奖 · 雅思 6.5 · CET6 546。
+> 全国中学生物理竞赛铜牌 · 江西省一等奖 · 江西省二等奖 · 雅思 6.5 · 六级 546 · CET6 546。
 > 法狗狗公司实习 —— 法律文书智能脱敏系统（OCR / NER 规则融合 + 人工复核 + 原格式导出），已部署公网。
 
 ## 🧭 现在在这里
@@ -58,7 +58,7 @@
 | 🎓 **香港中文大学** | 硕士 · 计算机科学与技术 —— AI 系统落地、文档智能、Agent 工程 |
 | 🌱 **公开项目** | 持续更新：NEXUS AI 原生平台、CÆSURA 开放世界、CrossRealm Chronicles、minicc-codex…… |
 | 🔭 **关注方向** | LangGraph 状态流转 · RAG · 评估与证据链 · 高并发与容灾 · 长上下文缓存 |
-| 🗣️ **外语能力** | 雅思 6.5 · CET6 546 |
+| 🗣️ **外语能力** | 雅思 6.5 · 六级 546 · CET6 546 |
 
 ## 🚀 原创旗舰
 
@@ -123,7 +123,7 @@
 - **香港中文大学** · 硕士 · 计算机科学与技术
 - **南方科技大学** · 本科 · 计算机科学与技术
 - **全国中学生物理竞赛 · 铜牌** · 江西省一等奖 · 江西省二等奖
-- **雅思 6.5** · **CET6 546**
+- **雅思 6.5** · **六级 546** · **CET6 546**
 
 ## 💼 经历
 
