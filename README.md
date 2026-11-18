@@ -66,7 +66,7 @@
 | --- | --- | --- |
 | **隐盾 · 法律文书智能脱敏** | 独立负责的文档脱敏系统：OCR / NER 规则融合 + 人工复核 + PDF/Word 原格式导出；已部署公网 | [yindun.fagougou.com](https://yindun.fagougou.com/) |
 | **NEXUS Content Platform** | AI 原生内容平台：Studio + Agent Runtime + 证据化验证链路；世界大典《低语诸王》| [源码](https://github.com/xiaodernan/nexus-content-platform) |
-| **CÆSURA · 止音纪元** | 原创第三人称动作 RPG（Three.js）：八区开放世界、三结局主线、《余响集》72 篇实写落地（LLM 起草 · 人工闸落库） | [进入游戏](https://xiaodernan.github.io/caesura/) |
+| **CÆSURA · 止音纪元** | 原创第三人称动作 RPG（Three.js）：八区开放世界、三结局主线、《余响集》77 篇实写落地（LLM 起草 · 人工闸落库；最新增篇《未渡的一页》2026-11-19） | [进入游戏](https://xiaodernan.github.io/caesura/) |
 | **跨界纪元 · Crossrealm Chronicles** | 三位面（奇幻/魔法/星光）拼接的浏览器开放世界动作 RPG · 双语 | [在线试玩](https://xiaodernan.github.io/crossrealm-chronicles/game/) |
 | **minicc-codex** | 本地优先的编程智能体 + 开发者工作台：权限边界、任务持久化、MCP、审计与修复闭环 | [源码](https://github.com/xiaodernan/minicc-codex) |
 | **Football OS** / **Web** | 足球分析、模拟与管理平台。内置九道被折叠世界书「印证」的 LLM 问答门（every door imprisoned to the fold）+ Pages 现场演示 + 沉浸式 StateGraph 手册章 | [在线体验](https://xiaodernan.github.io/football-os-web/) |
@@ -76,7 +76,7 @@
 
 ## 🌐 全部公开项目
 
-**原创方向（9）**
+**原创方向（10）**
 
 - [nexus-content-platform](https://github.com/xiaodernan/nexus-content-platform) · NEXUS 内容创作平台
 - [nexus-platform](https://github.com/xiaodernan/nexus-platform) · AI 原生商业与本地发现平台
@@ -87,15 +87,19 @@
 - [football-os](https://github.com/xiaodernan/football-os) · 足球知识、训练、战术与模拟系统
 - [football-os-web](https://github.com/xiaodernan/football-os-web) · 足球成长与分析 Web 体验
 - [ai-career-os](https://github.com/xiaodernan/ai-career-os) · 面向求职的 AI 工作操作系统
+- [fagougou-desensitize](https://github.com/xiaodernan/fagougou-desensitize) · Python · 2026-11 · 脱敏工程公开仓库
 
 **本站与资料（2）**
 
 - [xiaodernan.github.io](https://github.com/xiaodernan/xiaodernan.github.io) · 本人个人展示页（本站静态源码）
 - [xiaodernan](https://github.com/xiaodernan/xiaodernan) · 个人资料 README 源码
 
-**早期归档（3）** · 早期练习仓库，不再维护；与 fork 实验无关
+**早期归档（6）** · 早期练习仓库，不再维护；与 fork 实验无关
 
 - [ted](https://github.com/xiaodernan/ted) · 2025-05 个人习作仓库（无描述）
+- [teedyas](https://github.com/xiaodernan/teedyas) · 2025-05 个人习作仓库（无描述）
+- [teedyassi](https://github.com/xiaodernan/teedyassi) · 2025-05 个人习作仓库（无描述）
+- [teedy-assign](https://github.com/xiaodernan/teedy-assign) · 2025-05 个人习作仓库
 - [teedyyyy](https://github.com/xiaodernan/teedyyyy) · 2025-04 个人习作仓库（无描述）
 - [main](https://github.com/xiaodernan/main) · 2024-09 早期空仓库
 
@@ -106,7 +110,7 @@
 
 ## 🗺️ 三步玩遍整套作品
 
-1. **[个人作品集](https://xiaodernan.github.io/)** — 9 个原创方向 + 本站、归档与 fork 的全景入口，含在线试玩与直达链接
+1. **[个人作品集](https://xiaodernan.github.io/)** — 10 个原创方向 + 本站、归档与 fork 的全景入口，含在线试玩与直达链接
 2. **[CÆSURA · 止音纪元](https://xiaodernan.github.io/caesura/)** — 直接开打：八区开放世界、三结局主线
 3. **[隐盾在线系统](https://yindun.fagougou.com/)** — 看一份真实的文档脱敏闭环怎么跑
 
