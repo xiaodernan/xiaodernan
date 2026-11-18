@@ -21,8 +21,14 @@
 
 <p>
   <img src="https://img.shields.io/badge/PRODUCT-隐盾%20·%20法律文书智能脱敏-191c21?style=for-the-badge&logo=shield&logoColor=c9a258" alt="隐盾 · 法律文书智能脱敏">
-  <img src="https://img.shields.io/badge/WORLD-CÆSURA%20·%20止音纪元-191c21?style=for-the-badge&logo=gamepad&logoColor=c9a258" alt="CÆSURA · 止音纪元">
+  <img src="https://img.shields.io/badge/WORLD-C%C3%86SURA%20·%20止音纪元-191c21?style=for-the-badge&logo=gamepad&logoColor=c9a258" alt="CÆSURA · 止音纪元">
   <img src="https://img.shields.io/badge/AGENT-Minicc%20Codex-191c21?style=for-the-badge&logo=terminal&logoColor=c9a258" alt="Minicc Codex">
+</p>
+
+<p>
+  <a href="https://github.com/xiaodernan/minicc-codex/actions/workflows/ci.yml">
+    <img src="https://github.com/xiaodernan/minicc-codex/actions/workflows/ci.yml/badge.svg?branch=main&style=for-the-badge" alt="minicc-codex CI · live status on main">
+  </a>
 </p>
 
 </div>
@@ -56,13 +62,13 @@
 | --- | --- | --- |
 | **隐盾 · 法律文书智能脱敏** | 独立负责的文档脱敏系统：OCR / NER 规则融合 + 人工复核 + PDF/Word 原格式导出；已部署公网 | [yindun.fagougou.com](https://yindun.fagougou.com/) |
 | **NEXUS Content Platform** | AI 原生内容平台：Studio + Agent Runtime + 证据化验证链路；世界大典《低语诸王》| [源码](https://github.com/xiaodernan/nexus-content-platform) |
-| **CÆSURA · 止音纪元** | 原创第三人称动作 RPG（Three.js）：八区开放世界、三结局主线、《余响集》三十二篇实写落地（LLM 起草 · 人工闸落库） | [进入游戏](https://xiaodernan.github.io/caesura/) |
+| **CÆSURA · 止音纪元** | 原创第三人称动作 RPG（Three.js）：八区开放世界、三结局主线、《余响集》57 篇实写落地（LLM 起草 · 人工闸落库） | [进入游戏](https://xiaodernan.github.io/caesura/) |
 | **跨界纪元 · Crossrealm Chronicles** | 三位面（奇幻/魔法/星光）拼接的浏览器开放世界动作 RPG · 双语 | [在线试玩](https://xiaodernan.github.io/crossrealm-chronicles/game/) |
 | **minicc-codex** | 本地优先的编程智能体 + 开发者工作台：权限边界、任务持久化、MCP、审计与修复闭环 | [源码](https://github.com/xiaodernan/minicc-codex) |
 | **Football OS** / **Web** | 足球分析与确定性模拟平台 + Pages 前端展示 | [在线体验](https://xiaodernan.github.io/football-os-web/) |
 | **AI Career OS** | 求职力诊断 · JD 匹配 · STAR 故事库 · 投递管理 · 复盘闭环 | [源码](https://github.com/xiaodernan/ai-career-os) |
 | **NEXUS Platform** | AI 原生电商与本地发现平台（Next.js + Spring Cloud + RAG） | [源码](https://github.com/xiaodernan/nexus-platform) |
-| **SpecProof** | AI 代码变更验收防火墙：模型判决不能改，验收只能由 Base/Head 差分 + 证据链裁决 · 世界书 192 卷 · 展馆 18 件 exhibit · Court 4117d2b0 LOCKED · UI 594/594 | [源码](https://github.com/xiaodernan/specproof) · [正史](https://github.com/xiaodernan/specproof/tree/master/docs/world) |
+| **SpecProof** | AI 代码变更验收防火墙：模型判决不能改，验收只能由 Base/Head 差分 + 证据链裁决 · 世界书 192 卷 · 展馆 18 件 exhibit · Court 4117d2b0 LOCKED · latest strike #1991 · UI 594/594 | [源码](https://github.com/xiaodernan/specproof) · [正史](https://github.com/xiaodernan/specproof/tree/master/docs/world) |
 
 ## 🌐 全部公开项目
 
