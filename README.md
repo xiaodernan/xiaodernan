@@ -29,6 +29,10 @@
   <a href="https://github.com/xiaodernan/minicc-codex/actions/workflows/ci.yml">
     <img src="https://github.com/xiaodernan/minicc-codex/actions/workflows/ci.yml/badge.svg?branch=main&style=for-the-badge" alt="minicc-codex CI · live status on main">
   </a>
+  &nbsp;
+  <a href="https://github.com/xiaodernan/football-os-web/actions/workflows/spring-cloud-stack.yml">
+    <img src="https://github.com/xiaodernan/football-os-web/actions/workflows/spring-cloud-stack.yml/badge.svg?branch=master&style=for-the-badge" alt="Football OS Web · Spring Cloud stack CI">
+  </a>
 </p>
 
 </div>
