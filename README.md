@@ -12,16 +12,16 @@
 
 
 <p>
-  <img src="https://img.shields.io/badge/SUSTech-南方科技大学本科%20·%20计算机科学与技术-b88632?style=for-the-badge&logo=school&logoColor=0e141b" alt="南方科技大学 · 本科 · 计算机科学与技术">
-  <img src="https://img.shields.io/badge/CUHK-香港中文大学硕士%20·%20计算机科学与技术-c9a258?style=for-the-badge&logo=school&logoColor=0e141b" alt="香港中文大学 · 硕士 · 计算机科学与技术">
-  <img src="https://img.shields.io/badge/物理竞赛-全国铜牌%20·%20江西省一等奖%20·%20江西省二等奖-1e9d96?style=for-the-badge&logo=medal&logoColor=0e141b" alt="全国中学生物理竞赛 · 铜牌 · 江西省一等奖 · 江西省二等奖">
-  <img src="https://img.shields.io/badge/IELTS-雅思%206.5%20·%20六级%20546%20·%20CET6%20546-3c8bbd?style=for-the-badge&logo=book-open&logoColor=0e141b" alt="雅思 6.5（IELTS 6.5）· 六级 546（CET6 546）">
+  <img src="assets/badge-sustech.svg" width="362" alt="南方科技大学 · 本科 · 计算机科学与技术">
+  <img src="assets/badge-cuhk.svg" width="338" alt="香港中文大学 · 硕士 · 计算机科学与技术">
+  <img src="assets/badge-physics.svg" width="387" alt="全国中学生物理竞赛 · 铜牌 · 江西省一等奖 · 江西省二等奖">
+  <img src="assets/badge-ielts.svg" width="363" alt="雅思 6.5（IELTS 6.5）· 六级 546（CET6 546）">
 </p>
 
 <p>
-  <img src="https://img.shields.io/badge/PRODUCT-隐盾%20·%20法律文书智能脱敏-191c21?style=for-the-badge&logo=shield&logoColor=c9a258" alt="隐盾 · 法律文书智能脱敏">
-  <img src="https://img.shields.io/badge/WORLD-C%C3%86SURA%20·%20止音纪元-191c21?style=for-the-badge&logo=gamepad&logoColor=c9a258" alt="CÆSURA · 止音纪元">
-  <img src="https://img.shields.io/badge/AGENT-Minicc%20Codex-191c21?style=for-the-badge&logo=terminal&logoColor=c9a258" alt="Minicc Codex">
+  <img src="assets/badge-product.svg" width="278" alt="隐盾 · 法律文书智能脱敏">
+  <img src="assets/badge-world.svg" width="232" alt="CÆSURA · 止音纪元">
+  <img src="assets/badge-agent.svg" width="202" alt="Minicc Codex">
 </p>
 
 <p>
