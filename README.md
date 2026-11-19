@@ -87,7 +87,7 @@
 - [football-os](https://github.com/xiaodernan/football-os) · 足球知识、训练、战术与模拟系统
 - [football-os-web](https://github.com/xiaodernan/football-os-web) · 足球成长与分析 Web 体验
 - [ai-career-os](https://github.com/xiaodernan/ai-career-os) · 面向求职的 AI 工作操作系统
-- [fagougou-desensitize](https://github.com/xiaodernan/fagougou-desensitize) · Python · 2026-11 · 脱敏工程公开仓库
+- fagougou-desensitize · Python · 2026-11 · 法狗狗实习期间的脱敏工程积累（源码私有；演示见上 yindun.fagougou.com）
 
 **本站与资料（2）**
 
@@ -97,9 +97,9 @@
 **早期归档（6）** · 早期练习仓库，不再维护；与 fork 实验无关
 
 - [ted](https://github.com/xiaodernan/ted) · 2025-05 个人习作仓库（无描述）
-- [teedyas](https://github.com/xiaodernan/teedyas) · 2025-05 个人习作仓库（无描述）
-- [teedyassi](https://github.com/xiaodernan/teedyassi) · 2025-05 个人习作仓库（无描述）
-- [teedy-assign](https://github.com/xiaodernan/teedy-assign) · 2025-05 个人习作仓库
+- teedyas · 2025-05 个人习作仓库（无描述）（私有仓，不对外）
+- teedyassi · 2025-05 个人习作仓库（无描述）（私有仓，不对外）
+- teedy-assign · 2025-05 个人习作仓库（私有仓，不对外）
 - [teedyyyy](https://github.com/xiaodernan/teedyyyy) · 2025-04 个人习作仓库（无描述）
 - [main](https://github.com/xiaodernan/main) · 2024-09 早期空仓库
 
