@@ -132,7 +132,7 @@
 <div align="center">
 
 <img src="assets/stats-contrib.svg" alt="GITHUB 真实贡献 · 2026-11-19 GitHub API 实测" width="100%">
-<img src="assets/languages-2026-11-19.svg" alt="MOST USED LANGUAGES · 语言字节占比 · 2026-11-19 GitHub API 逐仓字节数实测" width="880" height="288">
+<img src="assets/languages-2026-11-20.svg" alt="MOST USED LANGUAGES · byte share 2026-11-20 · TypeScript 32.25% Python 24.66% JavaScript 19.45% HTML 12.37% Java 8.86% CSS 1.52% · GitHub API (146.18 MB, 14 repos)" width="880" height="288">
 
 上面的两张卡为 2026-11-19 按 GitHub REST / GraphQL API 实测（contributionsCollection 贡献日历 + languages_url 字节求和）后内嵌的静态渲染，14 个非 fork 公开仓、非估算、不含私有仓，不依赖任何第三方图床/统计服务。
 
