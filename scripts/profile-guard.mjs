@@ -7,6 +7,7 @@ import { readFileSync } from 'node:fs'
 import { fileURLToPath } from 'node:url'
 
 const readme = readFileSync(fileURLToPath(new URL('../README.md', import.meta.url)), 'utf8')
+const languageCard = readFileSync(fileURLToPath(new URL('../assets/languages-2026-11-20.svg', import.meta.url)), 'utf8')
 
 const need = [
   '赵欣曈', '南方科技大学', '香港中文大学', '计算机科学与技术',
@@ -32,5 +33,23 @@ for (const s of ban) {
     fail = 1
   }
 }
-if (fail === 0) console.log('profile-guard: OK — identity, inventory and door count reconciled')
+// 2026-11-20 · the language card once showed NaN and stale byte shares. Pin the live
+// GitHub REST byte audit into both the SVG and the README alt text, no estimates.
+const shares = ['32.28%', '24.64%', '19.48%', '12.36%', '8.83%', '1.51%', '0.40%', '0.28%', '0.22%']
+if (!shares.every((s) => languageCard.includes(s)) || !languageCard.includes('139.85 MB') || !languageCard.includes('14 public repos')) {
+  console.error('::error::profile-guard: language SVG drifted from the GitHub byte audit')
+  fail = 1
+}
+if (!shares.slice(0, 6).every((s) => readme.includes(s)) || !readme.includes('146.64 MB')) {
+  console.error('::error::profile-guard: README language alt drifted from the SVG')
+  fail = 1
+}
+for (const [surface, text] of [['README.md', readme], ['language-card.svg', languageCard]]) {
+  if (/\bNaN\b/.test(text)) {
+    console.error(`::error::profile-guard: NaN leaked into ${surface}`)
+    fail = 1
+  }
+}
+
+if (fail === 0) console.log('profile-guard: OK — identity, inventory, doors and language bytes reconciled')
 process.exit(fail)
