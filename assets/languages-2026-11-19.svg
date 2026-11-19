@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 288" role="img" aria-label="MOST USED LANGUAGES · 2026-11-19 · GitHub REST API bytes summed per repo">
+<rect width="880" height="288" rx="14" fill="#0e141b"/>
+<text x="28" y="38" font-family="DM Mono, ui-monospace, monospace" font-size="17" font-weight="700" fill="#c9a258" letter-spacing="2">MOST USED LANGUAGES</text>
+<text x="852" y="38" text-anchor="end" font-family="DM Mono, ui-monospace, monospace" font-size="10" fill="#8f9aa6">byte share · 2026-11-19 · GitHub API</text>
+<text x="28" y="77" font-family="DM Mono, ui-monospace, monospace" font-size="12" fill="#c9d1d9">TypeScript</text>
+<rect x="250" y="64" width="530" height="14" rx="7" fill="#1c2630"/>
+<rect x="250" y="64" width="530.0" height="14" rx="7" fill="#c9a258"/>
+<text x="792" y="76" font-family="DM Mono, ui-monospace, monospace" font-size="11" fill="#ee8452">31.91%</text>
+<text x="28" y="99" font-family="DM Mono, ui-monospace, monospace" font-size="12" fill="#c9d1d9">Python</text>
+<rect x="250" y="86" width="530" height="14" rx="7" fill="#1c2630"/>
+<rect x="250" y="86" width="413.7" height="14" rx="7" fill="#c9a258"/>
+<text x="792" y="98" font-family="DM Mono, ui-monospace, monospace" font-size="11" fill="#ee8452">24.87%</text>
+<text x="28" y="121" font-family="DM Mono, ui-monospace, monospace" font-size="12" fill="#c9d1d9">JavaScript</text>
+<rect x="250" y="108" width="530" height="14" rx="7" fill="#1c2630"/>
+<rect x="250" y="108" width="323.2" height="14" rx="7" fill="#c9a258"/>
+<text x="792" y="120" font-family="DM Mono, ui-monospace, monospace" font-size="11" fill="#ee8452">19.45%</text>
+<text x="28" y="143" font-family="DM Mono, ui-monospace, monospace" font-size="12" fill="#c9d1d9">HTML</text>
+<rect x="250" y="130" width="530" height="14" rx="7" fill="#1c2630"/>
+<rect x="250" y="130" width="206.6" height="14" rx="7" fill="#c9a258"/>
+<text x="792" y="142" font-family="DM Mono, ui-monospace, monospace" font-size="11" fill="#ee8452">12.42%</text>
+<text x="28" y="165" font-family="DM Mono, ui-monospace, monospace" font-size="12" fill="#c9d1d9">Java</text>
+<rect x="250" y="152" width="530" height="14" rx="7" fill="#1c2630"/>
+<rect x="250" y="152" width="148.7" height="14" rx="7" fill="#c9a258"/>
+<text x="792" y="164" font-family="DM Mono, ui-monospace, monospace" font-size="11" fill="#ee8452">8.93%</text>
+<text x="28" y="187" font-family="DM Mono, ui-monospace, monospace" font-size="12" fill="#c9d1d9">CSS</text>
+<rect x="250" y="174" width="530" height="14" rx="7" fill="#1c2630"/>
+<rect x="250" y="174" width="25.3" height="14" rx="7" fill="#c9a258"/>
+<text x="792" y="186" font-family="DM Mono, ui-monospace, monospace" font-size="11" fill="#ee8452">1.52%</text>
+<text x="28" y="209" font-family="DM Mono, ui-monospace, monospace" font-size="12" fill="#c9d1d9">Shell</text>
+<rect x="250" y="196" width="530" height="14" rx="7" fill="#1c2630"/>
+<rect x="250" y="196" width="6.7" height="14" rx="7" fill="#c9a258"/>
+<text x="792" y="208" font-family="DM Mono, ui-monospace, monospace" font-size="11" fill="#ee8452">0.40%</text>
+<text x="28" y="231" font-family="DM Mono, ui-monospace, monospace" font-size="12" fill="#c9d1d9">PLpgSQL</text>
+<rect x="250" y="218" width="530" height="14" rx="7" fill="#1c2630"/>
+<rect x="250" y="218" width="4.8" height="14" rx="7" fill="#c9a258"/>
+<text x="792" y="230" font-family="DM Mono, ui-monospace, monospace" font-size="11" fill="#ee8452">0.29%</text>
+<text x="28" y="252" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="11" fill="#8f9aa6">其他 10 种 · 0.22%</text>
+<text x="28" y="276" font-family="DM Mono, ui-monospace, monospace" font-size="10" fill="#6b7684">14 public repos (no forks/archives) · languages_url bytes · 144.79 MB · 2026-11-19</text>
+</svg>
