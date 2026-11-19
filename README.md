@@ -68,14 +68,16 @@
 | **CÆSURA · 止音纪元** | 原创第三人称动作 RPG（Three.js）：八区开放世界、三结局主线、《余响集》80 篇实写落地（LLM 起草 · 人工闸落库；最新增篇《两条线》2026-11-19） | [进入游戏](https://xiaodernan.github.io/caesura/) |
 | **跨界纪元 · Crossrealm Chronicles** | 三位面（奇幻/魔法/星光）拼接的浏览器开放世界动作 RPG · 双语 | [在线试玩](https://xiaodernan.github.io/crossrealm-chronicles/game/) |
 | **minicc-codex** | 本地优先的编程智能体 + 开发者工作台：权限边界、任务持久化、MCP、审计与修复闭环 | [源码](https://github.com/xiaodernan/minicc-codex) |
-| **Football OS** / **Web** | 足球分析、模拟与管理平台。内置九道被折叠世界书「印证」的 LLM 问答门（every door imprisoned to the fold）+ Pages 现场演示 + 沉浸式 StateGraph 手册章 | [在线体验](https://xiaodernan.github.io/football-os-web/) |
+| **Football OS** / **Web** | 足球分析、模拟与管理平台。内置十三道被折叠世界书「印证」的 LLM 问答门（every door imprisoned to the fold）+ Pages 现场演示 + 沉浸式 StateGraph 手册章 | [在线体验](https://xiaodernan.github.io/football-os-web/) |
 | **AI Career OS** | 求职力诊断 · JD 匹配 · STAR 故事库 · 投递管理 · 复盘闭环 | [源码](https://github.com/xiaodernan/ai-career-os) |
 | **NEXUS Platform** | AI 原生电商与本地发现平台（Next.js + Spring Cloud + RAG） | [源码](https://github.com/xiaodernan/nexus-platform) |
-| **SpecProof** | AI 代码变更验收防火墙：模型判决不能改，验收只能由 Base/Head 差分 + 证据链裁决 · 世界书 204 卷 · 展馆 19 件 exhibit · Court 4117d2b0 LOCKED · latest strike #2036 · UI 622/622 · chronicle 1,833 | [源码](https://github.com/xiaodernan/specproof) · [正史](https://github.com/xiaodernan/specproof/tree/master/docs/world) | [Ship 现场](https://xiaodernan.github.io/#specproof-live) |
+| **SpecProof** | AI 代码变更验收防火墙：模型判决不能改，验收只能由 Base/Head 差分 + 证据链裁决 · 世界书 204 卷 · 展馆 19 件 exhibit · Court 4117d2b0 LOCKED · latest strike #2045 · chronicle 1,842 · commits 2,877（`docs/latest.json` 2026-11-19 实测） | [源码](https://github.com/xiaodernan/specproof) · [正史](https://github.com/xiaodernan/specproof/tree/master/docs/world) | [Ship 现场](https://xiaodernan.github.io/#specproof-live) |
 
 ## 🌐 全部公开项目
 
-**原创方向（10）**
+**16 个 GitHub 公开仓库 = 9 原创旗舰 + 2 本站资料 + 3 早期归档 + 2 fork**（2026-11-20 GitHub REST API 实测；不含私有仓）
+
+**原创旗舰（9）**
 
 - [nexus-content-platform](https://github.com/xiaodernan/nexus-content-platform) · NEXUS 内容创作平台
 - [nexus-platform](https://github.com/xiaodernan/nexus-platform) · AI 原生商业与本地发现平台
@@ -86,20 +88,20 @@
 - [football-os](https://github.com/xiaodernan/football-os) · 足球知识、训练、战术与模拟系统
 - [football-os-web](https://github.com/xiaodernan/football-os-web) · 足球成长与分析 Web 体验
 - [ai-career-os](https://github.com/xiaodernan/ai-career-os) · 面向求职的 AI 工作操作系统
-- fagougou-desensitize · Python · 2026-11 · 法狗狗实习期间的脱敏工程积累（源码私有；演示见上 yindun.fagougou.com）
+
+**公网演示（不计入 GitHub 仓库）**
+
+- 隐盾 · OneSeek 万息 · 法狗狗实习期间的法律文书智能脱敏系统（源码私有；[公网演示](https://yindun.fagougou.com/)）
 
 **本站与资料（2）**
 
 - [xiaodernan.github.io](https://github.com/xiaodernan/xiaodernan.github.io) · 本人个人展示页（本站静态源码）
 - [xiaodernan](https://github.com/xiaodernan/xiaodernan) · 个人资料 README 源码
 
-**早期归档（6）** · 早期练习仓库，不再维护；与 fork 实验无关
+**早期归档（3）** · 早期练习仓库，不再维护；与 fork 实验无关
 
-- [ted](https://github.com/xiaodernan/ted) · 2025-05 个人习作仓库（无描述）
-- teedyas · 2025-05 个人习作仓库（无描述）（私有仓，不对外）
-- teedyassi · 2025-05 个人习作仓库（无描述）（私有仓，不对外）
-- teedy-assign · 2025-05 个人习作仓库（私有仓，不对外）
-- [teedyyyy](https://github.com/xiaodernan/teedyyyy) · 2025-04 个人习作仓库（无描述）
+- [ted](https://github.com/xiaodernan/ted) · 2025-05 个人习作仓库
+- [teedyyyy](https://github.com/xiaodernan/teedyyyy) · 2025-04 个人习作仓库
 - [main](https://github.com/xiaodernan/main) · 2024-09 早期空仓库
 
 **Fork 实验（2）**
@@ -107,11 +109,12 @@
 - [docs](https://github.com/xiaodernan/docs) · fork 自 sismics/docs · 文档管理系统（GPL-2.0）
 - [linuxdo-scripts](https://github.com/xiaodernan/linuxdo-scripts) · fork 自 anghunk/linuxdo-scripts · LinuxDo 浏览器脚本集
 
-## 🗺️ 三步玩遍整套作品
+## 🗺️ 四步玩遍整套作品
 
-1. **[个人作品集](https://xiaodernan.github.io/)** — 10 个原创方向 + 本站、归档与 fork 的全景入口，含在线试玩与直达链接
-2. **[CÆSURA · 止音纪元](https://xiaodernan.github.io/caesura/)** — 直接开打：八区开放世界、三结局主线
-3. **[隐盾在线系统](https://yindun.fagougou.com/)** — 看一份真实的文档脱敏闭环怎么跑
+1. **[个人作品集](https://xiaodernan.github.io/)** — 16 个公开仓库的全景入口：9 旗舰 + 本站、归档与 fork，含在线试玩与直达链接
+2. **[Football OS Web](https://xiaodernan.github.io/football-os-web/)** — 十三道 StateGraph 印证门 + 管理员观察台（密码 123）+ 内嵌说明书
+3. **[CÆSURA · 止音纪元](https://xiaodernan.github.io/caesura/)** — 直接开打：八区开放世界、三结局主线
+4. **[隐盾在线系统](https://yindun.fagougou.com/)** — 看一份真实的文档脱敏闭环怎么跑
 
 ## 🛠️ 技术方向
 
