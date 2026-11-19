@@ -71,7 +71,7 @@
 | **Football OS** / **Web** | 足球分析、模拟与管理平台。内置九道被折叠世界书「印证」的 LLM 问答门（every door imprisoned to the fold）+ Pages 现场演示 + 沉浸式 StateGraph 手册章 | [在线体验](https://xiaodernan.github.io/football-os-web/) |
 | **AI Career OS** | 求职力诊断 · JD 匹配 · STAR 故事库 · 投递管理 · 复盘闭环 | [源码](https://github.com/xiaodernan/ai-career-os) |
 | **NEXUS Platform** | AI 原生电商与本地发现平台（Next.js + Spring Cloud + RAG） | [源码](https://github.com/xiaodernan/nexus-platform) |
-| **SpecProof** | AI 代码变更验收防火墙：模型判决不能改，验收只能由 Base/Head 差分 + 证据链裁决 · 世界书 204 卷 · 展馆 19 件 exhibit · Court 4117d2b0 LOCKED · latest strike #2024 · UI 606/606 · chronicle 1,813 | [源码](https://github.com/xiaodernan/specproof) · [正史](https://github.com/xiaodernan/specproof/tree/master/docs/world) | [Ship 现场](https://xiaodernan.github.io/#specproof-live) |
+| **SpecProof** | AI 代码变更验收防火墙：模型判决不能改，验收只能由 Base/Head 差分 + 证据链裁决 · 世界书 204 卷 · 展馆 19 件 exhibit · Court 4117d2b0 LOCKED · latest strike #2024 · UI 612/612 · chronicle 1,813 | [源码](https://github.com/xiaodernan/specproof) · [正史](https://github.com/xiaodernan/specproof/tree/master/docs/world) | [Ship 现场](https://xiaodernan.github.io/#specproof-live) |
 
 ## 🌐 全部公开项目
 
