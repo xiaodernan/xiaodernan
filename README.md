@@ -10,7 +10,6 @@
   <a href="mailto:1841422153@qq.com">1841422153@qq.com</a>
 </p>
 
-<img alt="赵欣曈的方向" src="https://readme-typing-svg.demolab.com?font=DM+Mono&size=19&duration=3400&pause=1100&color=C9A258&background=0E141B&center=true&vCenter=true&width=880&lines=Agent%20Runtime%20%C2%B7%20%E6%96%87%E6%A1%A3%E6%99%BA%E8%83%BD%20%C2%B7%20%E5%8F%AF%E9%AA%8C%E8%AF%81%E4%BA%A4%E4%BB%98%3B%E5%8D%97%E6%96%B9%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%A6%20%E2%86%92%20%E9%A6%99%E6%B8%AF%E4%B8%AD%E6%96%87%E5%A4%A7%E5%AD%A6%20%C2%B7%20%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E4%B8%8E%E6%8A%80%E6%9C%AF%3B%E6%B3%95%E7%8B%97%E7%8B%97%E5%85%AC%E5%8F%B8%20%C2%B7%20%E6%B3%95%E5%BE%8B%E6%96%87%E4%B9%A6%E6%99%BA%E8%83%BD%E8%84%B1%E6%95%8F%3B%E9%9A%90%E7%9B%BE%20%C2%B7%20C%C3%86SURA%20%C2%B7%20Minicc%20Codex%3B%E9%9B%85%E6%80%9D%206.5%20%C2%B7%20IELTS%206.5%20%C2%B7%20%E5%85%AD%E7%BA%A7%20546%20%C2%B7%20CET6%20546" />
 
 <p>
   <img src="https://img.shields.io/badge/SUSTech-南方科技大学本科%20·%20计算机科学与技术-b88632?style=for-the-badge&logo=school&logoColor=0e141b" alt="南方科技大学 · 本科 · 计算机科学与技术">
@@ -132,16 +131,9 @@
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=xiaodernan&show_icons=true&hide_border=true&bg_color=0e141b&title_color=c9a258&text_color=c9d1d9&icon_color=b88632&count_private=true" alt="GitHub 真实贡献统计" height="155">
-<img src="assets/languages.svg" alt="MOST USED LANGUAGES · 语言字节占比 · 2026-11-19 GitHub API 逐仓字节数实测" width="880" height="258">
+<img src="assets/stats-contrib.svg" alt="GITHUB 真实贡献 · 2026-11-19 GitHub API 实测" width="100%">
+<img src="assets/languages.svg" alt="MOST USED LANGUAGES · 语言字节占比 · 2026-11-19 GitHub API 逐仓字节数实测" width="880" height="288">
 
-<img src="https://streak-stats.demolab.com/?user=xiaodernan&theme=github-dark&background=0e141b&ring=c9a258&fire=c9a258&currStreakLabel=c9a258&sideLabels=c9d1d9&dates=8f9aa6&hide_border=true" alt="GitHub 提交连胜记录与最长连胜" width="1180">
-<img src="https://github-profile-trophy.vercel.app/?username=xiaodernan&theme=onedark&no-frame=true&column=7&margin-w=16&no-bg=true" alt="GitHub 成就奖杯柜" width="1180">
-
-上面的贡献统计与连胜为第三方实时服务；语言占比卡为 2026-11-19 按 GitHub REST API 逐仓 languages_url 字节数求和后内嵌的静态实测（全 16 公开仓、非估算、不含私有仓）。
-
-欢迎从一个真实问题开始交流：一个 Agent 的可靠性、一条文档处理链路，或一款还没有被做出来的产品。
-
-**[1841422153@qq.com](mailto:1841422153@qq.com)** · **[xiaodernan.github.io](https://xiaodernan.github.io/)** · **[yindun.fagougou.com](https://yindun.fagougou.com/)**
+上面的两张卡为 2026-11-19 按 GitHub REST / GraphQL API 实测（contributionsCollection 贡献日历 + languages_url 字节求和）后内嵌的静态渲染，14 个非 fork 公开仓、非估算、不含私有仓，不依赖任何第三方图床/统计服务。
 
 </div>
