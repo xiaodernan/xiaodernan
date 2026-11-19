@@ -133,12 +133,12 @@
 <div align="center">
 
 <img src="https://github-readme-stats.vercel.app/api?username=xiaodernan&show_icons=true&hide_border=true&bg_color=0e141b&title_color=c9a258&text_color=c9d1d9&icon_color=b88632&count_private=true" alt="GitHub 真实贡献统计" height="155">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=xiaodernan&hide_border=true&layout=compact&bg_color=0e141b&title_color=c9a258&text_color=c9d1d9&hide_rank=true&size_weight=420" alt="最近使用语言" height="155">
+<img src="assets/languages.svg" alt="MOST USED LANGUAGES · 语言字节占比 · 2026-11-19 GitHub API 逐仓字节数实测" width="880" height="258">
 
 <img src="https://streak-stats.demolab.com/?user=xiaodernan&theme=github-dark&background=0e141b&ring=c9a258&fire=c9a258&currStreakLabel=c9a258&sideLabels=c9d1d9&dates=8f9aa6&hide_border=true" alt="GitHub 提交连胜记录与最长连胜" width="1180">
 <img src="https://github-profile-trophy.vercel.app/?username=xiaodernan&theme=onedark&no-frame=true&column=7&margin-w=16&no-bg=true" alt="GitHub 成就奖杯柜" width="1180">
 
-上述统计卡片为 GitHub 实时数据，每次加载即取最新值。
+上面的贡献统计与连胜为第三方实时服务；语言占比卡为 2026-11-19 按 GitHub REST API 逐仓 languages_url 字节数求和后内嵌的静态实测（全 16 公开仓、非估算、不含私有仓）。
 
 欢迎从一个真实问题开始交流：一个 Agent 的可靠性、一条文档处理链路，或一款还没有被做出来的产品。
 
