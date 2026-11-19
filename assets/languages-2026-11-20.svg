@@ -5,30 +5,30 @@
 <text x="28" y="77" font-family="DM Mono, ui-monospace, monospace" font-size="12" fill="#c9d1d9">TypeScript</text>
 <rect x="250" y="64" width="530" height="14" rx="7" fill="#1c2630"/>
 <rect x="250" y="64" width="530.0" height="14" rx="7" fill="#c9a258"/>
-<text x="792" y="76" font-family="DM Mono, ui-monospace, monospace" font-size="11" fill="#ee8452">32.25%</text>
+<text x="792" y="76" font-family="DM Mono, ui-monospace, monospace" font-size="11" fill="#ee8452">32.28%</text>
 <text x="28" y="99" font-family="DM Mono, ui-monospace, monospace" font-size="12" fill="#c9d1d9">Python</text>
 <rect x="250" y="86" width="530" height="14" rx="7" fill="#1c2630"/>
-<rect x="250" y="86" width="405.3" height="14" rx="7" fill="#c9a258"/>
-<text x="792" y="98" font-family="DM Mono, ui-monospace, monospace" font-size="11" fill="#ee8452">24.66%</text>
+<rect x="250" y="86" width="404.6" height="14" rx="7" fill="#c9a258"/>
+<text x="792" y="98" font-family="DM Mono, ui-monospace, monospace" font-size="11" fill="#ee8452">24.64%</text>
 <text x="28" y="121" font-family="DM Mono, ui-monospace, monospace" font-size="12" fill="#c9d1d9">JavaScript</text>
 <rect x="250" y="108" width="530" height="14" rx="7" fill="#1c2630"/>
-<rect x="250" y="108" width="319.7" height="14" rx="7" fill="#c9a258"/>
-<text x="792" y="120" font-family="DM Mono, ui-monospace, monospace" font-size="11" fill="#ee8452">19.45%</text>
+<rect x="250" y="108" width="319.8" height="14" rx="7" fill="#c9a258"/>
+<text x="792" y="120" font-family="DM Mono, ui-monospace, monospace" font-size="11" fill="#ee8452">19.48%</text>
 <text x="28" y="143" font-family="DM Mono, ui-monospace, monospace" font-size="12" fill="#c9d1d9">HTML</text>
 <rect x="250" y="130" width="530" height="14" rx="7" fill="#1c2630"/>
-<rect x="250" y="130" width="203.3" height="14" rx="7" fill="#c9a258"/>
-<text x="792" y="142" font-family="DM Mono, ui-monospace, monospace" font-size="11" fill="#ee8452">12.37%</text>
+<rect x="250" y="130" width="202.9" height="14" rx="7" fill="#c9a258"/>
+<text x="792" y="142" font-family="DM Mono, ui-monospace, monospace" font-size="11" fill="#ee8452">12.36%</text>
 <text x="28" y="165" font-family="DM Mono, ui-monospace, monospace" font-size="12" fill="#c9d1d9">Java</text>
 <rect x="250" y="152" width="530" height="14" rx="7" fill="#1c2630"/>
-<rect x="250" y="152" width="145.6" height="14" rx="7" fill="#c9a258"/>
-<text x="792" y="164" font-family="DM Mono, ui-monospace, monospace" font-size="11" fill="#ee8452">8.86%</text>
+<rect x="250" y="152" width="145.0" height="14" rx="7" fill="#c9a258"/>
+<text x="792" y="164" font-family="DM Mono, ui-monospace, monospace" font-size="11" fill="#ee8452">8.83%</text>
 <text x="28" y="187" font-family="DM Mono, ui-monospace, monospace" font-size="12" fill="#c9d1d9">CSS</text>
 <rect x="250" y="174" width="530" height="14" rx="7" fill="#1c2630"/>
-<rect x="250" y="174" width="24.9" height="14" rx="7" fill="#c9a258"/>
-<text x="792" y="186" font-family="DM Mono, ui-monospace, monospace" font-size="11" fill="#ee8452">1.52%</text>
+<rect x="250" y="174" width="24.8" height="14" rx="7" fill="#c9a258"/>
+<text x="792" y="186" font-family="DM Mono, ui-monospace, monospace" font-size="11" fill="#ee8452">1.51%</text>
 <text x="28" y="209" font-family="DM Mono, ui-monospace, monospace" font-size="12" fill="#c9d1d9">Shell</text>
 <rect x="250" y="196" width="530" height="14" rx="7" fill="#1c2630"/>
-<rect x="250" y="196" width="6.5" height="14" rx="7" fill="#c9a258"/>
+<rect x="250" y="196" width="6.6" height="14" rx="7" fill="#c9a258"/>
 <text x="792" y="208" font-family="DM Mono, ui-monospace, monospace" font-size="11" fill="#ee8452">0.40%</text>
 <text x="28" y="231" font-family="DM Mono, ui-monospace, monospace" font-size="12" fill="#c9d1d9">PLpgSQL</text>
 <rect x="250" y="218" width="530" height="14" rx="7" fill="#1c2630"/>
@@ -38,5 +38,5 @@
 <rect x="250" y="240" width="530" height="14" rx="7" fill="#1c2630"/>
 <rect x="250" y="240" width="3.6" height="14" rx="7" fill="#c9a258"/>
 <text x="792" y="252" font-family="DM Mono, ui-monospace, monospace" font-size="11" fill="#ee8452">0.22%</text>
-<text x="28" y="274" font-family="DM Mono, ui-monospace, monospace" font-size="10" fill="#6b7684">14 public repos (no forks/archived) · languages_url bytes · 139.41 MB · 2026-11-20</text>
+<text x="28" y="274" font-family="DM Mono, ui-monospace, monospace" font-size="10" fill="#6b7684">14 public repos (no forks/archived) · languages_url bytes · 139.85 MB · 2026-11-20</text>
 </svg>
