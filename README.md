@@ -65,7 +65,7 @@
 | --- | --- | --- |
 | **隐盾 · 法律文书智能脱敏** | 独立负责的文档脱敏系统：OCR / NER 规则融合 + 人工复核 + PDF/Word 原格式导出；已部署公网 | [yindun.fagougou.com](https://yindun.fagougou.com/) |
 | **NEXUS Content Platform** | AI 原生内容平台：Studio + Agent Runtime + 证据化验证链路；世界大典《低语诸王》| [源码](https://github.com/xiaodernan/nexus-content-platform) |
-| **CÆSURA · 止音纪元** | 原创第三人称动作 RPG（Three.js）：八区开放世界、三结局主线、《余响集》80 篇实写落地（LLM 起草 · 人工闸落库；最新增篇《两条线》2026-11-19） | [进入游戏](https://xiaodernan.github.io/caesura/) |
+| **CÆSURA · 止音纪元** | 原创第三人称动作 RPG（Three.js）：八区开放世界、三结局主线、《余响集》83 篇实写落地（LLM 起草 · 人工闸落库；最新增篇《门边的空碗》2026-11-20） | [进入游戏](https://xiaodernan.github.io/caesura/) |
 | **跨界纪元 · Crossrealm Chronicles** | 三位面（奇幻/魔法/星光）拼接的浏览器开放世界动作 RPG · 双语 | [在线试玩](https://xiaodernan.github.io/crossrealm-chronicles/game/) |
 | **minicc-codex** | 本地优先的编程智能体 + 开发者工作台：权限边界、任务持久化、MCP、审计与修复闭环 | [源码](https://github.com/xiaodernan/minicc-codex) |
 | **Football OS** / **Web** | 足球分析、模拟与管理平台。内置十四道被折叠世界书「印证」的 LLM 问答门（every door imprisoned to the fold）+ Pages 现场演示 + 沉浸式 StateGraph 手册章 | [在线体验](https://xiaodernan.github.io/football-os-web/) |
@@ -125,7 +125,7 @@
 - **香港中文大学** · 硕士 · 计算机科学与技术
 - **南方科技大学** · 本科 · 计算机科学与技术
 - **全国中学生物理竞赛 · 铜牌** · 江西省一等奖 · 江西省二等奖
-- **雅思 6.5** · **六级 546** · **CET6 546**
+- **雅思 6.5（IELTS 6.5）** · **六级 546（CET6 546）**
 
 ## 💼 经历
 
