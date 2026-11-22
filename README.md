@@ -75,7 +75,7 @@
 
 ## 🌐 全部公开项目
 
-**16 个 GitHub 公开仓库 = 9 原创旗舰 + 2 本站资料 + 3 早期归档 + 2 fork**（2026-11-20 GitHub REST API 实测；不含私有仓）
+**19 个 GitHub 公开仓库 = 9 原创旗舰 + 3 课程项目 + 2 本站资料 + 3 早期归档 + 2 fork**（2026-11-22 GitHub REST API 实测；不含私有仓）
 
 **原创旗舰（9）**
 
@@ -92,6 +92,12 @@
 **公网演示（不计入 GitHub 仓库）**
 
 - 隐盾 · OneSeek 万息 · 法狗狗实习期间的法律文书智能脱敏系统（源码私有；[公网演示](https://yindun.fagougou.com/)）
+
+**课程项目（3）**
+
+- [risc-v-single-cycle-cpu](https://github.com/xiaodernan/risc-v-single-cycle-cpu) · 南方科技大学《计算机组成原理》期末：单周期 RISC-V CPU（Verilog）
+- [CS308_-ImageCaptioning-](https://github.com/xiaodernan/CS308_-ImageCaptioning-) · CS308 图像描述（Image Captioning）课程项目
+- [team-project-25spring-59](https://github.com/xiaodernan/team-project-25spring-59) · 2025 春团队项目（GitHub Classroom）
 
 **本站与资料（2）**
 
