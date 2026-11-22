@@ -1,18 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 190" role="img" aria-label="GITHUB 真实数据 · 2026-11-19 · GitHub API">
 <rect width="1180" height="190" rx="14" fill="#0e141b"/>
 <text x="28" y="34" font-family="DM Mono, ui-monospace, monospace" font-size="17" font-weight="700" fill="#c9a258" letter-spacing="2">GITHUB / 真实数据</text>
-<text x="1152" y="34" text-anchor="end" font-family="DM Mono, ui-monospace, monospace" font-size="10" fill="#8f9aa6">2026-11-19 · REST + GraphQL 实测</text>
+<text x="1152" y="34" text-anchor="end" font-family="DM Mono, ui-monospace, monospace" font-size="10" fill="#8f9aa6">2026-11-22 · REST + GraphQL 实测</text>
 <line x1="295" y1="58" x2="295" y2="140" stroke="#1c2630" stroke-width="1.5"/>
 <line x1="590" y1="58" x2="590" y2="140" stroke="#1c2630" stroke-width="1.5"/>
 <line x1="885" y1="58" x2="885" y2="140" stroke="#1c2630" stroke-width="1.5"/>
-<text x="147" y="108" text-anchor="middle" font-family="'Noto Serif SC','Noto Serif CJK SC',Georgia,serif" font-weight="900" font-size="42" fill="#f7f5ee">4,012</text>
+<text x="147" y="108" text-anchor="middle" font-family="'Noto Serif SC','Noto Serif CJK SC',Georgia,serif" font-weight="900" font-size="42" fill="#f7f5ee">4,282</text>
 <text x="147" y="136" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="11" fill="#8f9aa6" letter-spacing="1.4">过去 12 个月贡献</text>
-<text x="442" y="108" text-anchor="middle" font-family="'Noto Serif SC','Noto Serif CJK SC',Georgia,serif" font-weight="900" font-size="42" fill="#f7f5ee">3,997</text>
+<text x="442" y="108" text-anchor="middle" font-family="'Noto Serif SC','Noto Serif CJK SC',Georgia,serif" font-weight="900" font-size="42" fill="#f7f5ee">4,267</text>
 <text x="442" y="136" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="11" fill="#8f9aa6" letter-spacing="1.4">提交 (COMMITS)</text>
-<text x="737" y="108" text-anchor="middle" font-family="'Noto Serif SC','Noto Serif CJK SC',Georgia,serif" font-weight="900" font-size="42" fill="#f7f5ee">18<tspan font-size="16" fill="#c9a258"> 天</tspan></text>
+<text x="737" y="108" text-anchor="middle" font-family="'Noto Serif SC','Noto Serif CJK SC',Georgia,serif" font-weight="900" font-size="42" fill="#f7f5ee">21<tspan font-size="16" fill="#c9a258"> 天</tspan></text>
 <text x="737" y="136" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="11" fill="#8f9aa6" letter-spacing="1.4">当前连胜</text>
 <text x="1032" y="108" text-anchor="middle" font-family="'Noto Serif SC','Noto Serif CJK SC',Georgia,serif" font-weight="900" font-size="42" fill="#f7f5ee">11</text>
 <text x="1032" y="136" text-anchor="middle" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-size="11" fill="#8f9aa6" letter-spacing="1.4">近 12 个月新建仓库</text>
-<text x="28" y="166" font-family="DM Mono, ui-monospace, monospace" font-size="10" fill="#6b7684">14 public repos · 18 languages · 144.79 MB · 10 stars · USER since 2024-03</text>
+<text x="28" y="166" font-family="DM Mono, ui-monospace, monospace" font-size="10" fill="#6b7684">14 original public repos · 18 languages · 143.72 MiB · 9 stars · USER since 2024-03</text>
 <text x="1152" y="166" text-anchor="end" font-family="DM Mono, ui-monospace, monospace" font-size="10" fill="#6b7684">contributions &amp; languages_url · not estimated</text>
 </svg>

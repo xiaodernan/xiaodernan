@@ -9,7 +9,7 @@ import { readFileSync } from 'node:fs'
 import { fileURLToPath } from 'node:url'
 
 const readme = readFileSync(fileURLToPath(new URL('../README.md', import.meta.url)), 'utf8')
-const languageCard = readFileSync(fileURLToPath(new URL('../assets/languages-2026-11-20.svg', import.meta.url)), 'utf8')
+const languageCard = readFileSync(fileURLToPath(new URL('../assets/languages-2026-11-22.svg', import.meta.url)), 'utf8')
 
 const need = [
   '赵欣曈', '南方科技大学', '香港中文大学', '计算机科学与技术',
@@ -37,12 +37,12 @@ for (const s of ban) {
 }
 // 2026-11-20 · the language card once showed NaN and stale byte shares. Pin the live
 // GitHub REST byte audit into both the SVG and the README alt text, no estimates.
-const shares = ['32.28%', '24.64%', '19.48%', '12.36%', '8.83%', '1.51%', '0.40%', '0.28%', '0.22%']
-if (!shares.every((s) => languageCard.includes(s)) || !languageCard.includes('139.85 MB') || !languageCard.includes('14 public repos')) {
+const shares = ['32.59%', '24.73%', '19.50%', '12.13%', '8.67%', '1.50%', '0.39%', '0.27%', '0.21%']
+if (!shares.every((s) => languageCard.includes(s)) || !languageCard.includes('143.72 MB') || !languageCard.includes('14 original public repos')) {
   console.error('::error::profile-guard: language SVG drifted from the GitHub byte audit')
   fail = 1
 }
-if (!shares.slice(0, 6).every((s) => readme.includes(s)) || !readme.includes('146.64 MB')) {
+if (!shares.slice(0, 6).every((s) => readme.includes(s)) || !readme.includes('143.72 MB')) {
   console.error('::error::profile-guard: README language alt drifted from the SVG')
   fail = 1
 }

@@ -75,7 +75,7 @@
 
 ## 🌐 全部公开项目
 
-**19 个 GitHub 公开仓库 = 9 原创旗舰 + 3 课程项目 + 2 本站资料 + 3 早期归档 + 2 fork**（2026-11-22 GitHub REST API 实测；不含私有仓）
+**19 个 GitHub 公开仓库 = 9 原创旗舰 + 3 课程项目 + 2 本站资料 + 3 早期归档 + 2 fork**（2026-11-22 GitHub REST API 实测；其中 16 个归我所有：14 原创 + 2 fork；3 个课程项目属课程组织仓；不含私有仓）
 
 **原创旗舰（9）**
 
@@ -93,7 +93,7 @@
 
 - 隐盾 · OneSeek 万息 · 法狗狗实习期间的法律文书智能脱敏系统（源码私有；[公网演示](https://yindun.fagougou.com/)）
 
-**课程项目（3）**
+**课程项目（3 · 课程组织仓）**
 
 - [risc-v-single-cycle-cpu](https://github.com/xiaodernan/risc-v-single-cycle-cpu) · 南方科技大学《计算机组成原理》期末：单周期 RISC-V CPU（Verilog）
 - [CS308_-ImageCaptioning-](https://github.com/xiaodernan/CS308_-ImageCaptioning-) · CS308 图像描述（Image Captioning）课程项目
@@ -141,8 +141,8 @@
 <div align="center">
 
 <img src="assets/stats-contrib.svg" alt="GITHUB 真实贡献 · 2026-11-19 GitHub API 实测" width="100%">
-<img src="assets/languages-2026-11-20.svg" alt="MOST USED LANGUAGES · byte share 2026-11-20 · TypeScript 32.28% Python 24.64% JavaScript 19.48% HTML 12.36% Java 8.83% CSS 1.51% · GitHub API (146.64 MB, 14 repos)" width="880" height="288">
+<img src="assets/languages-2026-11-22.svg" alt="MOST USED LANGUAGES · byte share 2026-11-22 · TypeScript 32.59% Python 24.73% JavaScript 19.50% HTML 12.13% Java 8.67% CSS 1.50% · GitHub API (143.72 MB, 14 repos)" width="880" height="288">
 
-上面的两张卡为 2026-11-19 / 2026-11-20 按 GitHub REST / GraphQL API 实测（contributionsCollection 贡献日历 + languages_url 字节求和）后内嵌的静态渲染，14 个非 fork 公开仓、非估算、不含私有仓，不依赖任何第三方图床/统计服务。
+上面的两张卡为 2026-11-22 按 GitHub REST / GraphQL API 实测（contributionsCollection 贡献日历 + languages_url 字节求和）后内嵌的静态渲染，14 个非 fork 自有公开仓、非估算、不含 fork 与私有仓，不依赖任何第三方图床/统计服务。
 
 </div>
