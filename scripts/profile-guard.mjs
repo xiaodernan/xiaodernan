@@ -48,12 +48,13 @@ const need = [
   "法狗狗公司", "隐盾", "雅思 6.5", "IELTS 6.5", "CET6 546",
   // the inventory's own headings — the group sizes are claims too
   "原创旗舰（9）", "本站与资料（2）", "早期归档（3）", "Fork 实验（2）", "课程项目（3",
-  // a deleted repo must be named as deleted, never linked and never given a star count
-  "源仓已下架",
 ];
 const ban = [
   "隐图", "暨南大学", "国家网络安全竞赛", "国家中学生物理竞赛",
   "九道", "十三道", "13 扇", "teedyas", "teedyassi", "teedy-assign",
+  // 过期数：它们都曾经是真的 ⇒ 守门要盯着它们不许回来
+  "19 个公开仓库", "19 个 GitHub 公开仓库", "83 篇", "204 卷", "#2045", "1,842", "2,877",
+  "146.64 MiB", "139.85 MiB", "2026-11-20.svg", "2026-11-19.svg",
 ];
 
 let fail = 0;
@@ -90,16 +91,93 @@ if (!existsSync(snapPath)) {
       failIt(`language card does not state the measured roster (${snap.own} original public repos)`);
     }
     if (!card.includes(snap.date)) failIt(`language card is not stamped with the snapshot date (${snap.date})`);
+    // **条长标度必须写在图上**：条长按最大语言归一化 ⇒ TypeScript 画满整条，
+    // 可它标着 32.57%。不写出来就是「条长与标签互相打脸」。
+    if (!/归一化|normalized/i.test(card)) {
+      failIt("language card does not state its bar scale (bars are normalized to the largest language)");
+    }
+  }
+
+  // ---------------------------------------------------------------- the contribution card
+  {
+    const statsPath = resolve(root, "assets/stats-contrib.svg");
+    if (!existsSync(statsPath)) {
+      failIt("assets/stats-contrib.svg is missing");
+    } else {
+      const stats = readFileSync(statsPath, "utf8");
+      if (snap.contributions?.total != null && !stats.includes(String(snap.contributions.total))) {
+        failIt(`contribution card drifted from the snapshot: total is not ${snap.contributions.total}`);
+      }
+      if (snap.contributions?.streak != null && !stats.includes(`${snap.contributions.streak} 天`)) {
+        failIt(`contribution card drifted from the snapshot: streak is not ${snap.contributions.streak} 天`);
+      }
+      if (!stats.includes(snap.date)) failIt(`contribution card is not stamped with the snapshot date (${snap.date})`);
+    }
+  }
+
+  // ---------------------------------------------------------------- orphan cards
+  // assets/ 下留着的**没人引用的**旧卡，是数字漂移的源头（每一张都印着一份旧快照）。
+  // ⇒ 只允许 README 真正引用的那几张。
+  {
+    const referenced = new Set([...readme.matchAll(/src="(assets\/[^"]+)"/g)].map((m) => m[1]));
+    for (const f of readdirSync(resolve(root, "assets"))) {
+      const rel = `assets/${f}`;
+      if (f.endsWith(".svg") && /languages/.test(rel) && !referenced.has(rel)) {
+        failIt(`${rel} is an unreferenced old language card (a source of number drift) — delete it`);
+      }
+    }
   }
 
   // ---------------------------------------------------------------- inventory claims
   const ownRepos = snap.roster.filter((r) => !r.fork).map((r) => r.name);
   const forkRepos = snap.roster.filter((r) => r.fork).map((r) => r.name);
+  // **每一个自有公开仓都必须以可点的仓库链接出现**（不只是「名字出现过」）。
+  // README 别的段落里提到过 football-os-web（例如在线体验地址），那就把清单里那一行删掉，
+  // 「名字出现过」这一格照样绿 —— 而读者在清单里根本找不到它。
   for (const name of [...ownRepos, ...forkRepos]) {
-    if (!readme.includes(name)) failIt(`public repo missing from the README: ${name}`);
+    if (!readme.includes(`](https://github.com/xiaodernan/${name})`)) {
+      failIt(`public repo missing from the README as a clickable link: ${name}`);
+    }
   }
   for (const needle of [`${snap.total} 个公开仓库`, `${snap.own} 原创`, `${snap.forks} fork`]) {
     if (!readme.includes(needle)) failIt(`README inventory claim missing or stale: ${needle}`);
+  }
+  // **自洽性**：非 fork + fork 必须等于总数（快照自己不能算错）
+  if (snap.own + snap.forks !== snap.total) {
+    failIt(`snapshot is inconsistent: own ${snap.own} + forks ${snap.forks} != total ${snap.total}`);
+  }
+
+  // ---------------------------------------------------------------- course repos
+  // 这三个仓**不在**本人名下（是协作者／组织仓），所以它们**不计入**上面的库存。
+  // 但它们确实做过 ⇒ 一并列出，免得读者以为漏了。
+  // ⇒ 链接与 owner 都必须与**现测快照**一致，不许在本脚本里硬编码 URL 当事实。
+  const courses = snap.course_repos ?? [];
+  if (courses.length === 0) failIt("snapshot has no course_repos — the course repos were never measured");
+  for (const c of courses) {
+    if (!c.exists) {
+      // 实测 404 ⇒ 它已经被删了。README 若还链着它，就是一条死链。
+      if (readme.includes(`https://github.com/${c.full}`)) {
+        failIt(`course repo ${c.full} is GONE (404) but the README still links it`);
+      }
+      continue;
+    }
+    if (!readme.includes(`https://github.com/${c.full}`)) {
+      failIt(`course repo link missing or wrong owner: ${c.full}`);
+    }
+    // **反向**：README 里不能出现 owner 与实测不符的课程仓链接
+    const name = c.full.split("/")[1];
+    const esc = name.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    for (const m of readme.matchAll(new RegExp(`https://github\\.com/([\\w.-]+)/${esc}\\b`, "g"))) {
+      if (m[1] !== c.owner) {
+        failIt(`course repo ${name}: README says owner=${m[1]}, GitHub says owner=${c.owner}`);
+      }
+    }
+    // 存活且有链接的课程仓，**必须写星数**（实测值）—— 不写星数就是信息缺失
+    const starRe = new RegExp(`https://github\\.com/${c.full.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}[^\\n]*?⭐\\s*(\\d+)`);
+    const sm = readme.match(starRe);
+    if (sm && Number(sm[1]) !== c.stars) {
+      failIt(`course repo ${c.full}: README says ⭐ ${sm[1]}, GitHub says ⭐ ${c.stars}`);
+    }
   }
 
   // ---------------------------------------------------------------- every own link must be real

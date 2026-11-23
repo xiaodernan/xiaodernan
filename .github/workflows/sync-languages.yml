@@ -28,20 +28,21 @@ jobs:
         run: node scripts/gh-languages.mjs --write
       - name: Repaint the README caption from the fresh snapshot
         run: node scripts/paint-language-alt.mjs --write
-      - name: Commit the card only if the figures moved
+      - name: Commit the cards only if the figures moved
         run: |
-          if git diff --quiet -- assets/languages-latest.svg data/gh-languages.json README.md; then
-            echo "语言卡未变化 —— 不提交。"
+          if git diff --quiet -- assets/languages-latest.svg assets/stats-contrib.svg data/gh-languages.json README.md; then
+            echo "卡片未变化 —— 不提交。"
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/languages-latest.svg data/gh-languages.json README.md
+          git add assets/languages-latest.svg assets/stats-contrib.svg data/gh-languages.json README.md
           git commit -F - <<'MSG'
-          docs(profile): 重绘 MOST USED LANGUAGES 卡（GitHub API 实测）
+          docs(profile): 重绘 MOST USED LANGUAGES 与贡献卡（GitHub API 实测）
 
-          由 scripts/gh-languages.mjs 从 GitHub REST API 重新测量并生成：
-          自有非 fork 公开仓的 languages_url 字节求和 -> 份额、字节总量、快照。
+          由 scripts/gh-languages.mjs 从 GitHub REST / GraphQL API 重新测量并生成：
+          自有非 fork 公开仓的 languages_url 字节求和 -> 份额、字节总量；
+          contributionsCollection -> 贡献总数与当前连胜。
 
           数字不手写：卡片、快照与 README 里的 alt 文本三者同源，
           由 scripts/profile-guard.mjs 离线校验。

@@ -5,17 +5,17 @@
   "forks": 2,
   "total": 16,
   "stars": 9,
-  "bytes": 153704697,
-  "mib": 146.58,
+  "bytes": 153720652,
+  "mib": 146.6,
   "languages": [
     {
       "name": "TypeScript",
-      "bytes": 50050674,
-      "share": 32.56
+      "bytes": 50059839,
+      "share": 32.57
     },
     {
       "name": "Python",
-      "bytes": 37670819,
+      "bytes": 37677609,
       "share": 24.51
     },
     {
@@ -26,7 +26,7 @@
     {
       "name": "HTML",
       "bytes": 19036373,
-      "share": 12.39
+      "share": 12.38
     },
     {
       "name": "Java",
@@ -103,82 +103,131 @@
     {
       "name": "ai-career-os",
       "fork": false,
-      "stars": 1
+      "stars": 1,
+      "language": "Python"
     },
     {
       "name": "caesura",
       "fork": false,
-      "stars": 1
+      "stars": 1,
+      "language": "TypeScript"
     },
     {
       "name": "crossrealm-chronicles",
       "fork": false,
-      "stars": 1
+      "stars": 1,
+      "language": "JavaScript"
     },
     {
       "name": "docs",
       "fork": true,
-      "stars": 0
+      "stars": 0,
+      "language": null
     },
     {
       "name": "football-os",
       "fork": false,
-      "stars": 1
+      "stars": 1,
+      "language": "Python"
     },
     {
       "name": "football-os-web",
       "fork": false,
-      "stars": 1
+      "stars": 1,
+      "language": "JavaScript"
     },
     {
       "name": "linuxdo-scripts",
       "fork": true,
-      "stars": 0
+      "stars": 0,
+      "language": null
     },
     {
       "name": "main",
       "fork": false,
-      "stars": 0
+      "stars": 0,
+      "language": null
     },
     {
       "name": "minicc-codex",
       "fork": false,
-      "stars": 1
+      "stars": 1,
+      "language": "Python"
     },
     {
       "name": "nexus-content-platform",
       "fork": false,
-      "stars": 1
+      "stars": 1,
+      "language": "TypeScript"
     },
     {
       "name": "nexus-platform",
       "fork": false,
-      "stars": 1
+      "stars": 1,
+      "language": "TypeScript"
     },
     {
       "name": "specproof",
       "fork": false,
-      "stars": 1
+      "stars": 1,
+      "language": "Python"
     },
     {
       "name": "ted",
       "fork": false,
-      "stars": 0
+      "stars": 0,
+      "language": "HTML"
     },
     {
       "name": "teedyyyy",
       "fork": false,
-      "stars": 0
+      "stars": 0,
+      "language": "HTML"
     },
     {
       "name": "xiaodernan",
       "fork": false,
-      "stars": 0
+      "stars": 0,
+      "language": "JavaScript"
     },
     {
       "name": "xiaodernan.github.io",
       "fork": false,
-      "stars": 0
+      "stars": 0,
+      "language": "HTML"
+    }
+  ],
+  "contributions": {
+    "total": 4396,
+    "streak": 22
+  },
+  "course_repos": [
+    {
+      "full": "zhqnb6666/risc-v-single-cycle-cpu",
+      "exists": true,
+      "owner": "zhqnb6666",
+      "stars": 0,
+      "archived": false,
+      "pushed_at": "2024-05-24T10:01:12Z",
+      "fork": false
+    },
+    {
+      "full": "ReverseRain/CS308_-ImageCaptioning-",
+      "exists": true,
+      "owner": "ReverseRain",
+      "stars": 1,
+      "archived": false,
+      "pushed_at": "2026-07-10T07:48:43Z",
+      "fork": false
+    },
+    {
+      "full": "sustech-cs304/team-project-25spring-59",
+      "exists": true,
+      "owner": "sustech-cs304",
+      "stars": 3,
+      "archived": false,
+      "pushed_at": "2025-12-16T12:34:19Z",
+      "fork": false
     }
   ]
 }

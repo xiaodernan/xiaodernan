@@ -73,11 +73,11 @@
 | **Football OS** / **Web** | 足球分析、模拟与管理平台。内置十四道被折叠世界书「印证」的 LLM 问答门（every door imprisoned to the fold）+ Pages 现场演示 + 沉浸式 StateGraph 手册章 | [在线体验](https://xiaodernan.github.io/football-os-web/) |
 | **AI Career OS** | 求职力诊断 · JD 匹配 · STAR 故事库 · 投递管理 · 复盘闭环 | [源码](https://github.com/xiaodernan/ai-career-os) |
 | **NEXUS Platform** | AI 原生电商与本地发现平台（Next.js + Spring Cloud + RAG） | [源码](https://github.com/xiaodernan/nexus-platform) |
-| **SpecProof** | AI 代码变更验收防火墙：模型判决不能改，验收只能由 Base/Head 差分 + 证据链裁决 · 世界书 204 卷 · 展馆 19 件 exhibit · Court 4117d2b0 LOCKED · latest strike #2045 · chronicle 1,842 · commits 2,877（`docs/latest.json` 2026-11-19 实测） | [源码](https://github.com/xiaodernan/specproof) · [正史](https://github.com/xiaodernan/specproof/tree/master/docs/world) · [Ship 现场](https://xiaodernan.github.io/#specproof-live) |
+| **SpecProof** | AI 代码变更验收防火墙：模型判决不能改，验收只能由 Base/Head 差分 + 证据链裁决 · 世界书 205 卷 · 展馆 19 件 exhibit · latest strike #2081 · chronicle 1,877 · commits 2,945（`docs/latest.json` 2026-11-23 实测） | [源码](https://github.com/xiaodernan/specproof) · [正史](https://github.com/xiaodernan/specproof/tree/master/docs/world) · [Ship 现场](https://xiaodernan.github.io/#specproof-live) |
 
 ## 🌐 全部公开项目
 
-**仓库总览（2026-11-23 GitHub REST API 实测）** — 我名下 **16 个公开仓库** = **14 原创** + **2 fork**（均不含私有仓）；另有 **2 个课程组织仓**现存可访问，**1 个课程仓源仓已下架**。
+**仓库总览（2026-11-23 GitHub REST API 实测）** — 我名下 **16 个公开仓库** = **14 原创** + **2 fork**（均不含私有仓）；另有 **3 个课程仓在协作者／组织名下**，全部现存可访问（**不计入**上面那 16 个）。
 下表的 ⭐ 为实测星数（GitHub API，`stargazers_count`）。
 
 **原创旗舰（9）**
@@ -108,11 +108,11 @@
 - [docs](https://github.com/xiaodernan/docs) · ⭐ 0 · fork 自 sismics/docs · 文档管理系统（GPL-2.0）
 - [linuxdo-scripts](https://github.com/xiaodernan/linuxdo-scripts) · ⭐ 0 · fork 自 anghunk/linuxdo-scripts · LinuxDo 浏览器脚本集
 
-**课程项目（3 · 课程组织仓）** · 这三个课程仓原本挂在 `xiaodernan/` 名下；其中两个的真实归属是课程组织，一个源仓已下架
+**课程项目（3 · 课程组织仓）** · 这三个课程仓的真实归属是协作者／课程组织，不在本人名下，**不计入**上面那 16 个公开仓；但它们确实做过 ⇒ 一并列出，免得读者以为漏了
 
 - [ReverseRain/CS308_-ImageCaptioning-](https://github.com/ReverseRain/CS308_-ImageCaptioning-) · ⭐ 1 · CS308 图像描述（Image Captioning）课程项目（本人账号下的副本已删除，现存于课程组织 ReverseRain）
 - [sustech-cs304/team-project-25spring-59](https://github.com/sustech-cs304/team-project-25spring-59) · ⭐ 3 · 2025 春团队项目（GitHub Classroom 组织仓；本人账号下的副本已删除）
-- `risc-v-single-cycle-cpu` · **源仓已下架** — 南方科技大学《计算机组成原理》期末：单周期 RISC-V CPU（Verilog）。本人账号下的仓库已被删除，GitHub 上已无同名公开仓；协作账号下的同课程副本不在本人名下，故此处不列链接，也不写星数（不存在的仓库没有星数）
+- [zhqnb6666/risc-v-single-cycle-cpu](https://github.com/zhqnb6666/risc-v-single-cycle-cpu) · ⭐ 0 · 南方科技大学《计算机组成原理》期末：单周期 RISC-V CPU（Verilog）· 仓在协作者 `zhqnb6666` 名下，本人账号下的副本已删除
 
 **公网演示（不计入 GitHub 仓库）**
 
@@ -143,8 +143,8 @@
 
 <div align="center">
 
-<img src="assets/stats-contrib.svg" alt="GITHUB 真实贡献 · 2026-11-19 GitHub API 实测" width="100%">
-<img src="assets/languages-latest.svg" alt="MOST USED LANGUAGES · byte share 2026-11-23 · TypeScript 32.56% · Python 24.51% · JavaScript 19.45% · HTML 12.39% · Java 8.74% · CSS 1.49% · GitHub API · 14 original public repos · 153,704,697 B (146.58 MiB)" width="880" height="288">
+<img src="assets/stats-contrib.svg" alt="GITHUB 贡献 · 4396 contributions · 22-day streak · 14 original public repos · 2 forks · GitHub API · 2026-11-23" width="100%">
+<img src="assets/languages-latest.svg" alt="MOST USED LANGUAGES · byte share 2026-11-23 · TypeScript 32.57% · Python 24.51% · JavaScript 19.45% · HTML 12.38% · Java 8.74% · CSS 1.49% · other 12 0.85% · GitHub API · 14 original public repos · 153,720,652 B (146.60 MiB) · bars normalized to the largest language" width="880" height="288">
 
 上面的两张卡为实测后内嵌的静态渲染（contributionsCollection 贡献日历 + `languages_url` 字节求和）：**14 个非 fork 自有公开仓**、非估算、不含 fork 与私有仓，不依赖任何第三方图床/统计服务。
 语言卡由 `scripts/gh-languages.mjs` 直接从 GitHub API 重新生成，数字与快照 `data/gh-languages.json` 一一对应；`scripts/profile-guard.mjs` 离线校验 README、图片与快照三者同源，`scripts/repo-roster-guard.mjs` 每周联网复核链接与星数。
