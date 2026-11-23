@@ -1,0 +1,49 @@
+name: sync-languages
+
+# The MOST USED LANGUAGES card is GENERATED, never hand-written: `scripts/gh-languages.mjs`
+# re-measures the byte share through the GitHub REST API and redraws the SVG plus its snapshot.
+#
+# This workflow is the low-frequency refresh the portfolio asked for ("低频更新，有大提升再更新"):
+# weekly, and it only commits when the measured numbers actually moved — a repo gaining a
+# language is worth a new card, a no-op run is not worth a commit.
+on:
+  schedule:
+    - cron: "17 13 * * 1"   # Monday 13:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  redraw:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Re-measure and redraw the language card
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/gh-languages.mjs --write
+      - name: Repaint the README caption from the fresh snapshot
+        run: node scripts/paint-language-alt.mjs --write
+      - name: Commit the card only if the figures moved
+        run: |
+          if git diff --quiet -- assets/languages-latest.svg data/gh-languages.json README.md; then
+            echo "语言卡未变化 —— 不提交。"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/languages-latest.svg data/gh-languages.json README.md
+          git commit -F - <<'MSG'
+          docs(profile): 重绘 MOST USED LANGUAGES 卡（GitHub API 实测）
+
+          由 scripts/gh-languages.mjs 从 GitHub REST API 重新测量并生成：
+          自有非 fork 公开仓的 languages_url 字节求和 -> 份额、字节总量、快照。
+
+          数字不手写：卡片、快照与 README 里的 alt 文本三者同源，
+          由 scripts/profile-guard.mjs 离线校验。
+          MSG
+          git push

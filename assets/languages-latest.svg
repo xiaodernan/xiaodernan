@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 286" role="img" aria-label="MOST USED LANGUAGES · GitHub REST API byte share · 2026-11-23 · TypeScript 32.56%, Python 24.51%, JavaScript 19.45%, HTML 12.39%, Java 8.74%, CSS 1.49%, Shell 0.38%, PLpgSQL 0.27%, other 0.21%">
+<rect width="880" height="286" rx="14" fill="#0e141b"/>
+<text x="28" y="38" font-family="DM Mono, ui-monospace, monospace" font-size="17" font-weight="700" fill="#c9a258" letter-spacing="2">MOST USED LANGUAGES</text>
+<text x="852" y="38" text-anchor="end" font-family="DM Mono, ui-monospace, monospace" font-size="10" fill="#8f9aa6">byte share · 2026-11-23 · GitHub API</text>
+<text x="28" y="77" font-family="DM Mono, ui-monospace, monospace" font-size="12" fill="#c9d1d9">TypeScript</text>
+<rect x="250" y="64" width="530" height="14" rx="7" fill="#1c2630"/>
+<rect x="250" y="64" width="530.0" height="14" rx="7" fill="#c9a258"/>
+<text x="792" y="77" font-family="DM Mono, ui-monospace, monospace" font-size="11" fill="#ee8452">32.56%</text>
+<text x="28" y="99" font-family="DM Mono, ui-monospace, monospace" font-size="12" fill="#c9d1d9">Python</text>
+<rect x="250" y="86" width="530" height="14" rx="7" fill="#1c2630"/>
+<rect x="250" y="86" width="398.9" height="14" rx="7" fill="#c9a258"/>
+<text x="792" y="99" font-family="DM Mono, ui-monospace, monospace" font-size="11" fill="#ee8452">24.51%</text>
+<text x="28" y="121" font-family="DM Mono, ui-monospace, monospace" font-size="12" fill="#c9d1d9">JavaScript</text>
+<rect x="250" y="108" width="530" height="14" rx="7" fill="#1c2630"/>
+<rect x="250" y="108" width="316.5" height="14" rx="7" fill="#c9a258"/>
+<text x="792" y="121" font-family="DM Mono, ui-monospace, monospace" font-size="11" fill="#ee8452">19.45%</text>
+<text x="28" y="143" font-family="DM Mono, ui-monospace, monospace" font-size="12" fill="#c9d1d9">HTML</text>
+<rect x="250" y="130" width="530" height="14" rx="7" fill="#1c2630"/>
+<rect x="250" y="130" width="201.6" height="14" rx="7" fill="#c9a258"/>
+<text x="792" y="143" font-family="DM Mono, ui-monospace, monospace" font-size="11" fill="#ee8452">12.39%</text>
+<text x="28" y="165" font-family="DM Mono, ui-monospace, monospace" font-size="12" fill="#c9d1d9">Java</text>
+<rect x="250" y="152" width="530" height="14" rx="7" fill="#1c2630"/>
+<rect x="250" y="152" width="142.3" height="14" rx="7" fill="#c9a258"/>
+<text x="792" y="165" font-family="DM Mono, ui-monospace, monospace" font-size="11" fill="#ee8452">8.74%</text>
+<text x="28" y="187" font-family="DM Mono, ui-monospace, monospace" font-size="12" fill="#c9d1d9">CSS</text>
+<rect x="250" y="174" width="530" height="14" rx="7" fill="#1c2630"/>
+<rect x="250" y="174" width="24.2" height="14" rx="7" fill="#c9a258"/>
+<text x="792" y="187" font-family="DM Mono, ui-monospace, monospace" font-size="11" fill="#ee8452">1.49%</text>
+<text x="28" y="209" font-family="DM Mono, ui-monospace, monospace" font-size="12" fill="#c9d1d9">Shell</text>
+<rect x="250" y="196" width="530" height="14" rx="7" fill="#1c2630"/>
+<rect x="250" y="196" width="6.2" height="14" rx="7" fill="#c9a258"/>
+<text x="792" y="209" font-family="DM Mono, ui-monospace, monospace" font-size="11" fill="#ee8452">0.38%</text>
+<text x="28" y="231" font-family="DM Mono, ui-monospace, monospace" font-size="12" fill="#c9d1d9">PLpgSQL</text>
+<rect x="250" y="218" width="530" height="14" rx="7" fill="#1c2630"/>
+<rect x="250" y="218" width="4.4" height="14" rx="7" fill="#c9a258"/>
+<text x="792" y="231" font-family="DM Mono, ui-monospace, monospace" font-size="11" fill="#ee8452">0.27%</text>
+<text x="28" y="253" font-family="DM Mono, ui-monospace, monospace" font-size="12" fill="#c9d1d9">其他 10 种</text>
+<rect x="250" y="240" width="530" height="14" rx="7" fill="#1c2630"/>
+<rect x="250" y="240" width="3.5" height="14" rx="7" fill="#c9a258"/>
+<text x="792" y="253" font-family="DM Mono, ui-monospace, monospace" font-size="11" fill="#ee8452">0.21%</text>
+<text x="28" y="274" font-family="DM Mono, ui-monospace, monospace" font-size="10" fill="#6b7684">14 original public repos (no forks) · languages_url bytes · 153,704,697 B (146.58 MiB) · 2026-11-23</text>
+</svg>

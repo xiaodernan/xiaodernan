@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="assets/avatar-square.png" width="170" height="170" alt="赵欣曈 · Zhao Xintong">
+
 <img src="assets/banner.svg" width="100%" alt="赵欣曈 · Zhao Xintong — AI 应用工程师 / AI Application Engineer">
 
 <p>
@@ -71,49 +73,50 @@
 | **Football OS** / **Web** | 足球分析、模拟与管理平台。内置十四道被折叠世界书「印证」的 LLM 问答门（every door imprisoned to the fold）+ Pages 现场演示 + 沉浸式 StateGraph 手册章 | [在线体验](https://xiaodernan.github.io/football-os-web/) |
 | **AI Career OS** | 求职力诊断 · JD 匹配 · STAR 故事库 · 投递管理 · 复盘闭环 | [源码](https://github.com/xiaodernan/ai-career-os) |
 | **NEXUS Platform** | AI 原生电商与本地发现平台（Next.js + Spring Cloud + RAG） | [源码](https://github.com/xiaodernan/nexus-platform) |
-| **SpecProof** | AI 代码变更验收防火墙：模型判决不能改，验收只能由 Base/Head 差分 + 证据链裁决 · 世界书 204 卷 · 展馆 19 件 exhibit · Court 4117d2b0 LOCKED · latest strike #2045 · chronicle 1,842 · commits 2,877（`docs/latest.json` 2026-11-19 实测） | [源码](https://github.com/xiaodernan/specproof) · [正史](https://github.com/xiaodernan/specproof/tree/master/docs/world) | [Ship 现场](https://xiaodernan.github.io/#specproof-live) |
+| **SpecProof** | AI 代码变更验收防火墙：模型判决不能改，验收只能由 Base/Head 差分 + 证据链裁决 · 世界书 204 卷 · 展馆 19 件 exhibit · Court 4117d2b0 LOCKED · latest strike #2045 · chronicle 1,842 · commits 2,877（`docs/latest.json` 2026-11-19 实测） | [源码](https://github.com/xiaodernan/specproof) · [正史](https://github.com/xiaodernan/specproof/tree/master/docs/world) · [Ship 现场](https://xiaodernan.github.io/#specproof-live) |
 
 ## 🌐 全部公开项目
 
-**19 个 GitHub 公开仓库 = 9 原创旗舰 + 3 课程项目 + 2 本站资料 + 3 早期归档 + 2 fork**（2026-11-22 GitHub REST API 实测；其中 16 个归我所有：14 原创 + 2 fork；3 个课程项目属课程组织仓；不含私有仓）
+**仓库总览（2026-11-23 GitHub REST API 实测）** — 我名下 **16 个公开仓库** = **14 原创** + **2 fork**（均不含私有仓）；另有 **2 个课程组织仓**现存可访问，**1 个课程仓源仓已下架**。
+下表的 ⭐ 为实测星数（GitHub API，`stargazers_count`）。
 
 **原创旗舰（9）**
 
-- [nexus-content-platform](https://github.com/xiaodernan/nexus-content-platform) · NEXUS 内容创作平台
-- [nexus-platform](https://github.com/xiaodernan/nexus-platform) · AI 原生商业与本地发现平台
-- [minicc-codex](https://github.com/xiaodernan/minicc-codex) · 工作区受限 Coding Agent
-- [specproof](https://github.com/xiaodernan/specproof) · 代码变更验收与证据工作台
-- [caesura](https://github.com/xiaodernan/caesura) · Three.js 第三人称动作 RPG
-- [crossrealm-chronicles](https://github.com/xiaodernan/crossrealm-chronicles) · Three.js 可玩世界
-- [football-os](https://github.com/xiaodernan/football-os) · 足球知识、训练、战术与模拟系统
-- [football-os-web](https://github.com/xiaodernan/football-os-web) · 足球成长与分析 Web 体验
-- [ai-career-os](https://github.com/xiaodernan/ai-career-os) · 面向求职的 AI 工作操作系统
+- [nexus-content-platform](https://github.com/xiaodernan/nexus-content-platform) · ⭐ 1 · NEXUS 内容创作平台 · AI 原生内容平台 + 证据化验证链路
+- [nexus-platform](https://github.com/xiaodernan/nexus-platform) · ⭐ 1 · AI 原生商业与本地发现平台（Next.js + Spring Cloud + RAG）
+- [minicc-codex](https://github.com/xiaodernan/minicc-codex) · ⭐ 1 · 工作区受限 Coding Agent · 权限边界 / MCP / 审计闭环
+- [specproof](https://github.com/xiaodernan/specproof) · ⭐ 1 · 代码变更验收与证据工作台
+- [caesura](https://github.com/xiaodernan/caesura) · ⭐ 1 · Three.js 第三人称动作 RPG（八区开放世界）
+- [crossrealm-chronicles](https://github.com/xiaodernan/crossrealm-chronicles) · ⭐ 1 · Three.js 可玩世界 · 双语三位面
+- [football-os](https://github.com/xiaodernan/football-os) · ⭐ 1 · 足球知识、训练、战术与模拟系统
+- [football-os-web](https://github.com/xiaodernan/football-os-web) · ⭐ 1 · 足球成长与分析 Web 体验 · 十四道印证门
+- [ai-career-os](https://github.com/xiaodernan/ai-career-os) · ⭐ 1 · 面向求职的 AI 工作操作系统
+
+**本站与资料（2）**
+
+- [xiaodernan.github.io](https://github.com/xiaodernan/xiaodernan.github.io) · ⭐ 0 · 本人个人展示页（本站静态源码）
+- [xiaodernan](https://github.com/xiaodernan/xiaodernan) · ⭐ 0 · 个人资料 README 源码（本仓）
+
+**早期归档（3）** · 早期练习仓库，不再维护；与 fork 实验无关
+
+- [ted](https://github.com/xiaodernan/ted) · ⭐ 0 · 2025-05 个人习作仓库
+- [teedyyyy](https://github.com/xiaodernan/teedyyyy) · ⭐ 0 · 2025-04 个人习作仓库
+- [main](https://github.com/xiaodernan/main) · ⭐ 0 · 2024-09 早期空仓库
+
+**Fork 实验（2）**
+
+- [docs](https://github.com/xiaodernan/docs) · ⭐ 0 · fork 自 sismics/docs · 文档管理系统（GPL-2.0）
+- [linuxdo-scripts](https://github.com/xiaodernan/linuxdo-scripts) · ⭐ 0 · fork 自 anghunk/linuxdo-scripts · LinuxDo 浏览器脚本集
+
+**课程项目（3 · 课程组织仓）** · 这三个课程仓原本挂在 `xiaodernan/` 名下；其中两个的真实归属是课程组织，一个源仓已下架
+
+- [ReverseRain/CS308_-ImageCaptioning-](https://github.com/ReverseRain/CS308_-ImageCaptioning-) · ⭐ 1 · CS308 图像描述（Image Captioning）课程项目（本人账号下的副本已删除，现存于课程组织 ReverseRain）
+- [sustech-cs304/team-project-25spring-59](https://github.com/sustech-cs304/team-project-25spring-59) · ⭐ 3 · 2025 春团队项目（GitHub Classroom 组织仓；本人账号下的副本已删除）
+- `risc-v-single-cycle-cpu` · **源仓已下架** — 南方科技大学《计算机组成原理》期末：单周期 RISC-V CPU（Verilog）。本人账号下的仓库已被删除，GitHub 上已无同名公开仓；协作账号下的同课程副本不在本人名下，故此处不列链接，也不写星数（不存在的仓库没有星数）
 
 **公网演示（不计入 GitHub 仓库）**
 
 - 隐盾 · OneSeek 万息 · 法狗狗实习期间的法律文书智能脱敏系统（源码私有；[公网演示](https://yindun.fagougou.com/)）
-
-**课程项目（3 · 课程组织仓）**
-
-- [risc-v-single-cycle-cpu](https://github.com/xiaodernan/risc-v-single-cycle-cpu) · 南方科技大学《计算机组成原理》期末：单周期 RISC-V CPU（Verilog）
-- [CS308_-ImageCaptioning-](https://github.com/xiaodernan/CS308_-ImageCaptioning-) · CS308 图像描述（Image Captioning）课程项目
-- [team-project-25spring-59](https://github.com/xiaodernan/team-project-25spring-59) · 2025 春团队项目（GitHub Classroom）
-
-**本站与资料（2）**
-
-- [xiaodernan.github.io](https://github.com/xiaodernan/xiaodernan.github.io) · 本人个人展示页（本站静态源码）
-- [xiaodernan](https://github.com/xiaodernan/xiaodernan) · 个人资料 README 源码
-
-**早期归档（3）** · 早期练习仓库，不再维护；与 fork 实验无关
-
-- [ted](https://github.com/xiaodernan/ted) · 2025-05 个人习作仓库
-- [teedyyyy](https://github.com/xiaodernan/teedyyyy) · 2025-04 个人习作仓库
-- [main](https://github.com/xiaodernan/main) · 2024-09 早期空仓库
-
-**Fork 实验（2）**
-
-- [docs](https://github.com/xiaodernan/docs) · fork 自 sismics/docs · 文档管理系统（GPL-2.0）
-- [linuxdo-scripts](https://github.com/xiaodernan/linuxdo-scripts) · fork 自 anghunk/linuxdo-scripts · LinuxDo 浏览器脚本集
 
 ## 🗺️ 四步玩遍整套作品
 
@@ -141,8 +144,9 @@
 <div align="center">
 
 <img src="assets/stats-contrib.svg" alt="GITHUB 真实贡献 · 2026-11-19 GitHub API 实测" width="100%">
-<img src="assets/languages-2026-11-22.svg" alt="MOST USED LANGUAGES · byte share 2026-11-22 · TypeScript 32.59% Python 24.73% JavaScript 19.50% HTML 12.13% Java 8.67% CSS 1.50% · GitHub API (143.72 MB, 14 repos)" width="880" height="288">
+<img src="assets/languages-latest.svg" alt="MOST USED LANGUAGES · byte share 2026-11-23 · TypeScript 32.56% · Python 24.51% · JavaScript 19.45% · HTML 12.39% · Java 8.74% · CSS 1.49% · GitHub API · 14 original public repos · 153,704,697 B (146.58 MiB)" width="880" height="288">
 
-上面的两张卡为 2026-11-22 按 GitHub REST / GraphQL API 实测（contributionsCollection 贡献日历 + languages_url 字节求和）后内嵌的静态渲染，14 个非 fork 自有公开仓、非估算、不含 fork 与私有仓，不依赖任何第三方图床/统计服务。
+上面的两张卡为实测后内嵌的静态渲染（contributionsCollection 贡献日历 + `languages_url` 字节求和）：**14 个非 fork 自有公开仓**、非估算、不含 fork 与私有仓，不依赖任何第三方图床/统计服务。
+语言卡由 `scripts/gh-languages.mjs` 直接从 GitHub API 重新生成，数字与快照 `data/gh-languages.json` 一一对应；`scripts/profile-guard.mjs` 离线校验 README、图片与快照三者同源，`scripts/repo-roster-guard.mjs` 每周联网复核链接与星数。
 
 </div>

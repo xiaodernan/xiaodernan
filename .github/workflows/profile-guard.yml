@@ -19,3 +19,5 @@ jobs:
           node-version: 20
       - name: Verify profile facts
         run: node scripts/profile-guard.mjs
+      - name: Verify the language-card caption matches the snapshot
+        run: node scripts/paint-language-alt.mjs --check

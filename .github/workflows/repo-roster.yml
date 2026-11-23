@@ -1,0 +1,28 @@
+name: repo-roster
+
+# The live half of the profile gate: does every link in the README still resolve, does every
+# star number still match GitHub, and is every public repository of the account still listed?
+#
+# The data is public, so the default GITHUB_TOKEN is enough — no secret to leak, no token to
+# expire. The schedule is deliberately weekly and off-peak: this is a drift alarm, not a
+# content pipeline (the content itself changes when there is something real to say).
+on:
+  schedule:
+    - cron: "41 13 * * 1"   # Monday 13:41 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  roster:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Reconcile the README roster with GitHub
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/repo-roster-guard.mjs
