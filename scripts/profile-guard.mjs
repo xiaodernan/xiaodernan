@@ -215,6 +215,34 @@ if (!existsSync(avatarPath)) {
   }
 }
 
+// ---------------------------------------------------------------- the banner's legibility
+// The banner is a 1280-wide viewBox rendered at width="100%" in the README, i.e. scaled to
+// ~700–896px ⇒ 0.55–0.70x. A font-size of 11 in that viewBox therefore lands at 6.0–7.7 real
+// px: unreadable. The gate states the rendered size, not the authored size.
+{
+  const bannerPath = resolve(root, "assets/banner.svg");
+  if (!existsSync(bannerPath)) {
+    failIt("assets/banner.svg is missing");
+  } else {
+    const banner = readFileSync(bannerPath, "utf8");
+    const vb = banner.match(/viewBox="0 0 ([\d.]+) ([\d.]+)"/);
+    if (!vb) {
+      failIt("assets/banner.svg has no viewBox — the rendered size cannot be reasoned about");
+    } else {
+      const vw = Number(vb[1]);
+      const sizes = [...banner.matchAll(/font-size="([\d.]+)"/g)].map((m) => Number(m[1]));
+      if (sizes.length === 0) failIt("assets/banner.svg has no font-size at all");
+      // the narrowest realistic README column
+      const scale = 700 / vw;
+      const worst = Math.min(...sizes) * scale;
+      if (worst < 8) {
+        failIt(`assets/banner.svg has text that renders at ${worst.toFixed(1)}px `
+          + `(min font-size ${Math.min(...sizes)} at ${scale.toFixed(2)}x scale) — below the 8px floor`);
+      }
+    }
+  }
+}
+
 if (fail === 0) {
   console.log(`profile-guard: OK — identity, inventory, stars, language bytes and avatar reconciled `
     + `(${publicSurfaces.length} public surfaces scanned)`);

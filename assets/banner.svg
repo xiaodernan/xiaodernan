@@ -47,7 +47,7 @@
   <text x="118" y="141" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-weight="700" font-size="38" fill="#0e141b" letter-spacing="2">ZX</text>
 
   <!-- project strip, top-right -->
-  <text x="1208" y="46" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12.5" fill="#5f6f7c" letter-spacing="2.4">CÆSURA · NEXUS · MINICC · CROSSREALM</text>
+  <text x="1208" y="46" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16" fill="#8f9aa6" letter-spacing="2.4">CÆSURA · NEXUS · MINICC · CROSSREALM</text>
 
   <!-- name -->
   <text x="72" y="252" font-family="'Noto Serif SC','Noto Serif CJK SC',Georgia,serif" font-weight="900" font-size="86" fill="#f7f5ee" letter-spacing="5">赵欣曈</text>
@@ -58,7 +58,7 @@
 
   <!-- tagline -->
   <text x="76" y="336" font-family="'Noto Serif SC','Noto Serif CJK SC',Georgia,serif" font-size="17.5" fill="#c9a258" letter-spacing="1.6">AI 应用工程师 · Agent Runtime · 文档智能 · 可验证交付</text>
-  <text x="76" y="360" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12.5" fill="#6e7a85" letter-spacing="1.5">AI APPLICATION ENGINEER · VERIFIABLE DELIVERY, NO THEATRE</text>
+  <text x="76" y="360" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16" fill="#8f9aa6" letter-spacing="1.5">AI APPLICATION ENGINEER · VERIFIABLE DELIVERY, NO THEATRE</text>
 
   <!-- orbit / waveform, right side -->
   <g fill="none">
@@ -72,6 +72,9 @@
         fill="none" stroke="url(#wave)" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
 
   <!-- footer strip -->
-  <text x="76" y="402" font-family="'Noto Serif SC','Noto Serif CJK SC',Georgia,serif" font-size="11" fill="#5f6f7c" letter-spacing="1.8">SUSTech 本科 · CUHK 硕士 · 计算机科学与技术</text>
-  <text x="1208" y="402" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#c9a258" letter-spacing="1.8">XIAODERNAN.GITHUB.IO</text>
+  <!-- 字号说明：viewBox 是 1280 宽，GitHub README 里按 width="100%" 渲染到 ~700–896px，
+       等效缩放 0.55–0.70 ⇒ 原来那两处 11px 只有 6.0–7.7px **根本看不清**。
+       ⇒ 提到 16px（等效 8.8–11.2px），并把基线上抬到 y=396，避免与 tagline 抢行。 -->
+  <text x="76" y="396" font-family="'Noto Serif SC','Noto Serif CJK SC',Georgia,serif" font-size="16" fill="#8f9aa6" letter-spacing="1.8">SUSTech 本科 · CUHK 硕士 · 计算机科学与技术</text>
+  <text x="1208" y="396" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16" fill="#c9a258" letter-spacing="1.8">XIAODERNAN.GITHUB.IO</text>
 </svg>
