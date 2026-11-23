@@ -1,8 +1,11 @@
 name: profile-guard
 
+# The branch list used to be [master] only. This repo's default branch is `main`
+# (origin/HEAD -> origin/main), so the gate had never fired once — a check that never
+# runs is decoration, not a check. Both branch names are listed from now on.
 on:
   push:
-    branches: [master]
+    branches: [main, master]
   pull_request:
   workflow_dispatch:
 
