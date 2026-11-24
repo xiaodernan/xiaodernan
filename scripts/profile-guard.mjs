@@ -45,7 +45,7 @@ const surfaces = publicSurfaces.map((p) => [p, read(p)]);
 const need = [
   "赵欣曈", "南方科技大学", "香港中文大学", "计算机科学与技术",
   "全国中学生物理竞赛", "铜牌", "江西省一等奖", "江西省二等奖",
-  "法狗狗公司", "隐盾", "雅思 6.5", "IELTS 6.5", "CET6 546",
+  "法狗狗公司", "隐盾", "雅思 6.5", "IELTS 6.5", "CET-6 546",
   // the inventory's own headings — the group sizes are claims too
   "原创旗舰（9）", "本站与资料（2）", "早期归档（3）", "Fork 实验（2）", "课程项目（3",
 ];
