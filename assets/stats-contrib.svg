@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 150" role="img" aria-label="GitHub 贡献统计">
 <rect width="880" height="150" rx="14" fill="#0e141b"/>
 <text x="28" y="36" font-family="DM Mono, ui-monospace, monospace" font-size="16" font-weight="700" fill="#c9a258" letter-spacing="1.5">GITHUB 贡献</text>
-<text x="852" y="36" text-anchor="end" font-family="DM Mono, ui-monospace, monospace" font-size="10" fill="#8f9aa6">2026-11-23 · GitHub API 实测</text>
-<text x="28" y="84" font-family="DM Mono, ui-monospace, monospace" font-size="21" font-weight="700" fill="#f7f5ee">4396</text>
+<text x="852" y="36" text-anchor="end" font-family="DM Mono, ui-monospace, monospace" font-size="10" fill="#8f9aa6">2026-11-24 · GitHub API 实测</text>
+<text x="28" y="84" font-family="DM Mono, ui-monospace, monospace" font-size="21" font-weight="700" fill="#f7f5ee">4401</text>
 <text x="28" y="106" font-family="DM Mono, ui-monospace, monospace" font-size="11" fill="#8f9aa6">贡献总数</text>
-<text x="167" y="84" font-family="DM Mono, ui-monospace, monospace" font-size="21" font-weight="700" fill="#f7f5ee">22 天</text>
+<text x="167" y="84" font-family="DM Mono, ui-monospace, monospace" font-size="21" font-weight="700" fill="#f7f5ee">23 天</text>
 <text x="167" y="106" font-family="DM Mono, ui-monospace, monospace" font-size="11" fill="#8f9aa6">当前连胜</text>
 <text x="306" y="84" font-family="DM Mono, ui-monospace, monospace" font-size="21" font-weight="700" fill="#f7f5ee">16</text>
 <text x="306" y="106" font-family="DM Mono, ui-monospace, monospace" font-size="11" fill="#8f9aa6">公开仓</text>
@@ -12,7 +12,7 @@
 <text x="445" y="106" font-family="DM Mono, ui-monospace, monospace" font-size="11" fill="#8f9aa6">非 fork 自有</text>
 <text x="584" y="84" font-family="DM Mono, ui-monospace, monospace" font-size="21" font-weight="700" fill="#f7f5ee">18</text>
 <text x="584" y="106" font-family="DM Mono, ui-monospace, monospace" font-size="11" fill="#8f9aa6">语言数</text>
-<text x="723" y="84" font-family="DM Mono, ui-monospace, monospace" font-size="21" font-weight="700" fill="#f7f5ee">146.60 MiB</text>
+<text x="723" y="84" font-family="DM Mono, ui-monospace, monospace" font-size="21" font-weight="700" fill="#f7f5ee">146.82 MiB</text>
 <text x="723" y="106" font-family="DM Mono, ui-monospace, monospace" font-size="11" fill="#8f9aa6">代码字节</text>
 <text x="28" y="134" font-family="DM Mono, ui-monospace, monospace" font-size="10" fill="#6b7684">contributionsCollection + /users/xiaodernan/repos?type=owner · 只算 14 个非 fork 自有公开仓 · 由 scripts/gh-languages.mjs 现测</text>
 </svg>

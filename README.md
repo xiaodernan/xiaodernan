@@ -143,8 +143,8 @@
 
 <div align="center">
 
-<img src="assets/stats-contrib.svg" alt="GITHUB 贡献 · 4396 contributions · 22-day streak · 14 original public repos · 2 forks · GitHub API · 2026-11-23" width="100%">
-<img src="assets/languages-latest.svg" alt="MOST USED LANGUAGES · byte share 2026-11-23 · TypeScript 32.57% · Python 24.51% · JavaScript 19.45% · HTML 12.38% · Java 8.74% · CSS 1.49% · other 12 0.85% · GitHub API · 14 original public repos · 153,720,652 B (146.60 MiB) · bars normalized to the largest language" width="880" height="288">
+<img src="assets/stats-contrib.svg" alt="GITHUB 贡献 · 4401 contributions · 23-day streak · 14 original public repos · 2 forks · GitHub API · 2026-11-24" width="100%">
+<img src="assets/languages-latest.svg" alt="MOST USED LANGUAGES · byte share 2026-11-24 · TypeScript 32.58% · Python 24.50% · JavaScript 19.47% · HTML 12.37% · Java 8.73% · CSS 1.49% · other 12 0.85% · GitHub API · 14 original public repos · 153,947,839 B (146.82 MiB) · bars normalized to the largest language" width="880" height="288">
 
 上面的两张卡为实测后内嵌的静态渲染（contributionsCollection 贡献日历 + `languages_url` 字节求和）：**14 个非 fork 自有公开仓**、非估算、不含 fork 与私有仓，不依赖任何第三方图床/统计服务。
 语言卡由 `scripts/gh-languages.mjs` 直接从 GitHub API 重新生成，数字与快照 `data/gh-languages.json` 一一对应；`scripts/profile-guard.mjs` 离线校验 README、图片与快照三者同源，`scripts/repo-roster-guard.mjs` 每周联网复核链接与星数。
